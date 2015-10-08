@@ -1,0 +1,163 @@
+Alistipes finegoldii DSM 17242 /genomes/all/GCA_000265365.1_ASM26536v1
+Alistipes finegoldii CAG:68 /genomes/all/GCA_000432715.1_MGS68
+Burkholderia sp. 2385 /genomes/all/GCA_000828165.1_ASM82816v1
+Burkholderia sp. JGI 0001021-E08 /genomes/all/GCA_000485395.1_ASM48539v1
+Burkholderia sp. K4410.MGS-135 /genomes/all/GCA_000980335.1_ASM98033v1
+Burkholderia sp. SJ98 /genomes/all/GCA_000256585.3_ASM25658v3
+Burkholderia sp. JGI 0001009-M21 /genomes/all/GCA_000485075.1_ASM48507v1
+Burkholderia sp. AU4i /genomes/all/GCA_000466765.1_Burkholderia_vietnamiensis
+Burkholderia sp. K24 /genomes/all/GCA_000714855.1_Burkholderia_sp._K24_draft01
+Burkholderia sp. URHA0054 /genomes/all/GCA_000421865.1_ASM42186v1
+Burkholderia sp. 2002721687 /genomes/all/GCA_000959325.1_ASM95932v1
+Burkholderia sp. A1 /genomes/all/GCA_000633145.1_BrkA1_for_Burkholderia_sp._strain_A1
+[Clostridium] stercorarium subsp. stercorarium DSM 8532 /genomes/all/GCA_000349885.2_ASM34988v2
+Terrisporobacter othiniensis /genomes/all/GCA_000808015.1_pear-SPAdes-1.0
+Clostridium perfringens ATCC 13124 /genomes/all/GCA_000013285.1_ASM1328v1
+Clostridium perfringens /genomes/all/GCA_001052445.1_ASM105244v1
+Clostridium perfringens CPE str. F4969 /genomes/all/GCA_000171195.1_ASM17119v1
+Clostridium perfringens B str. ATCC 3626 /genomes/all/GCA_000171155.1_ASM17115v1
+Clostridium perfringens C str. JGS1495 /genomes/all/GCA_000171135.1_ASM17113v1
+Clostridium perfringens E str. JGS1987 /genomes/all/GCA_000171175.1_ASM17117v1
+Clostridium perfringens D str. JGS1721 /genomes/all/GCA_000172455.1_ASM17245v1
+Clostridium perfringens NCTC 8239 /genomes/all/GCA_000171215.1_ASM17121v1
+Clostridium perfringens JJC /genomes/all/GCA_000512415.1_JJC_1.0
+Clostridium perfringens F262 /genomes/all/GCA_000255475.1_ASM25547v1
+Lonsdalea quercina subsp. quercina /genomes/all/GCA_000688695.1_LonsB102
+Devosia chinhatensis /genomes/all/GCA_000969445.1_ASM96944v1
+Paraprevotella clara YIT 11840 /genomes/all/GCA_000233955.1_ASM23395v1
+Paraprevotella clara CAG:116 /genomes/all/GCA_000436895.1_MGS116
+Bacteroides uniformis dnLKV2 /genomes/all/GCA_000403175.2_Bact_unif_dnLKV2_V1
+Bacteroides uniformis str. 3978 T3 i /genomes/all/GCA_000699885.1_ASM69988v1
+Bacteroides uniformis ATCC 8492 /genomes/all/GCA_000154205.1_ASM15420v1
+Bacteroides uniformis CL03T12C37 /genomes/all/GCA_000273275.1_Bact_unif_CL03T12C37_V1
+Bacteroides uniformis CAG:3 /genomes/all/GCA_000437295.1_MGS3
+Bacteroides uniformis str. 3978 T3 ii /genomes/all/GCA_000699825.1_ASM69982v1
+Bacteroides uniformis CL03T00C23 /genomes/all/GCA_000273785.1_Bact_unif_CL03T00C23_V1
+Bacteroides uniformis /genomes/all/GCA_000939155.1_2a7B_assembly3
+Lactobacillus acidipiscis KCTC 13900 /genomes/all/GCA_000260635.1_ASM26063v1
+Bacteroides salyersiae CL02T12C01 /genomes/all/GCA_000273235.1_Bact_saly_CL02T12C01_V1
+Bacteroides salyersiae WAL 10018 = DSM 18765 = JCM 12988 /genomes/all/GCA_000613685.1_ASM61368v1
+Yersinia similis /genomes/all/GCA_001114105.1_5139_1_4
+Bacteroides cellulosilyticus DSM 14838 /genomes/all/GCA_000158035.1_ASM15803v1
+Bacteroides cellulosilyticus CL02T12C19 /genomes/all/GCA_000273015.1_Bact_cell_CL02T12C19_V1
+Bacteroides cellulosilyticus CAG:158 /genomes/all/GCA_000436555.1_MGS158
+Bacteroides cellulosilyticus WH2 /genomes/all/GCA_000463315.1_B_cell_WH2_1.0
+Lachnospiraceae bacterium 6_1_37FAA /genomes/all/GCA_000191805.1_Lach_bact_4_1_37FAA_V1
+Lachnospiraceae bacterium 1_1_57FAA /genomes/all/GCA_000218445.1_Lach_bact_1_1_57FAA_V1
+Lachnospiraceae bacterium 3_1_46FAA /genomes/all/GCA_000209405.1_Lach_bact_3_1_46FAA_V1
+Lachnospiraceae bacterium AC2014 /genomes/all/GCA_000701545.1_ASM70154v1
+Lachnospiraceae bacterium 9_1_43BFAA /genomes/all/GCA_000209445.1_Lach_bact_9_1_43BFAA_V1
+Lachnospiraceae bacterium 1_4_56FAA /genomes/all/GCA_000218385.1_Lach_bact_1_4_56FAA_V1
+Lachnospiraceae bacterium 8_1_57FAA /genomes/all/GCA_000185545.1_ASM18554v1
+Lachnospiraceae bacterium 5_1_63FAA /genomes/all/GCA_000185525.1_ASM18552v1
+Lachnospiraceae bacterium 2_1_58FAA /genomes/all/GCA_000218465.1_Lach_bact_2_1_58FAA_V1
+Lachnospiraceae bacterium 6_1_63FAA /genomes/all/GCA_000209425.1_Lach_bact_6_1_63FAA_V1
+Candidatus Alistipes marseilloanorexicus AP11 /genomes/all/GCA_000321205.1_ASM32120v1
+Bacteroides dorei CL02T00C15 /genomes/all/GCA_000273035.1_Bact_dore_CL02T00C15_V1
+Bacteroides dorei 5_1_36/D4 /genomes/all/GCA_000158335.2_Bact_dorei_5_1_36_D4_V2
+Bacteroides dorei CAG:222 /genomes/all/GCA_000436135.1_MGS222
+Bacteroides dorei DSM 17855 /genomes/all/GCA_000156075.1_ASM15607v1
+Bacteroides dorei /genomes/all/GCA_001274835.1_ASM127483v1
+Bacteroides dorei CL02T12C06 /genomes/all/GCA_000273055.1_Bact_dore_CL02T12C06_V1
+Bacteroides dorei CL03T12C01 /genomes/all/GCA_000273075.1_Bact_dore_CL03T12C01_V1
+Acinetobacter sp. CIP 102129 /genomes/all/GCA_000368305.1_Acin_sp_CIP_102129_V1
+Acinetobacter sp. NBRC 100985 /genomes/all/GCA_000241225.2_ASM24122v2
+Acinetobacter sp. N54.MGS-139 /genomes/all/GCA_000980495.1_ASM98049v1
+Acinetobacter sp. ANC 3862 /genomes/all/GCA_000369565.1_Acin_sp_ANC_3862_V1
+Acinetobacter sp. NIPH 1847 /genomes/all/GCA_000369605.1_Acin_sp_NIPH_1847_V1
+Acinetobacter sp. CIP 51.11 /genomes/all/GCA_000369665.1_Acin_sp_CIP_51_11_V1
+Acinetobacter sp. HR7 /genomes/all/GCA_000773685.1_ASM77368v1
+Acinetobacter sp. NIPH 817 /genomes/all/GCA_000368405.1_Acin_sp_NIPH817_V1
+Acinetobacter sp. WC-136 /genomes/all/GCA_000315155.1_gacin28v1.0
+Acinetobacter sp. COS3 /genomes/all/GCA_000475335.1_De_Novo_assembly
+[Clostridium] saccharolyticum WM1 /genomes/all/GCA_000144625.1_ASM14462v1
+Serratia sp. FS14 /genomes/all/GCA_000695995.1_ASM69599v1
+Serratia sp. SCBI /genomes/all/GCA_000747565.1_ASM74756v1
+Serratia sp. DD3 /genomes/all/GCA_000496755.2_ASM49675v2
+Serratia sp. H1w /genomes/all/GCA_000633355.1_de_novo
+Serratia sp. M24T3 /genomes/all/GCA_000257645.1_ASM25764v1
+Serratia sp. AS12 /genomes/all/GCA_000214195.1_ASM21419v1
+Serratia sp. AS13 /genomes/all/GCA_000214805.1_ASM21480v1
+Serratia sp. H1n /genomes/all/GCA_000633315.1_de_novo
+Serratia sp. Ag1 /genomes/all/GCA_000743355.1_ASM74335v1
+Serratia sp. Ag2 /genomes/all/GCA_000743365.1_ASM74336v1
+Phascolarctobacterium sp. CAG:266 /genomes/all/GCA_000436095.1_MGS266
+Phascolarctobacterium sp. CAG:207 /genomes/all/GCA_000436295.1_MGS207
+Plesiomonas sp. ZOR0011 /genomes/all/GCA_000800945.1_ZOR0011.1
+synthetic Escherichia coli C321.deltaA /genomes/all/GCA_000826925.1_ASM82692v1
+Collinsella intestinalis DSM 13280 /genomes/all/GCA_000156175.1_ASM15617v1
+Firmicutes bacterium CAG:822 /genomes/all/GCA_000432855.1_MGS822
+Firmicutes bacterium CAG:424 /genomes/all/GCA_000432195.1_MGS424
+Firmicutes bacterium CAG:124 /genomes/all/GCA_000432135.1_MGS124
+Firmicutes bacterium CAG:313 /genomes/all/GCA_000433995.1_MGS313
+Firmicutes bacterium CAG:95 /genomes/all/GCA_000438155.1_MGS95
+Firmicutes bacterium CAG:83 /genomes/all/GCA_000431575.1_MGS83
+Firmicutes bacterium CAG:475 /genomes/all/GCA_000434435.1_MGS475
+Firmicutes bacterium JGI 0000112-L22 /genomes/all/GCA_000494545.1_ASM49454v1
+Firmicutes bacterium CAG:103 /genomes/all/GCA_000432375.1_MGS103
+Firmicutes bacterium CAG:449 /genomes/all/GCA_000432895.1_MGS449
+Yersinia pestis Pestoides G /genomes/all/GCA_000834985.1_ASM83498v1
+Yersinia pestis 1412 /genomes/all/GCA_001188695.1_ASM118869v1
+Yersinia pestis str. Pestoides B /genomes/all/GCA_000834925.1_ASM83492v1
+Yersinia pestis 3770 /genomes/all/GCA_001188775.1_ASM118877v1
+Yersinia pestis 1413 /genomes/all/GCA_001188935.1_ASM118893v1
+Yersinia pestis biovar Medievalis str. Harbin 35 /genomes/all/GCA_000186725.1_ASM18672v1
+Yersinia pestis biovar Microtus str. 91001 /genomes/all/GCA_000007885.1_ASM788v1
+Yersinia pestis D182038 /genomes/all/GCA_000022825.1_ASM2282v1
+Yersinia pestis 1522 /genomes/all/GCA_001188715.1_ASM118871v1
+Yersinia pestis CO92 /genomes/all/GCA_001293415.1_ASM129341v1
+Bifidobacterium pullorum /genomes/all/GCA_000741335.1_Bifpul
+Bifidobacterium pullorum DSM 20433 /genomes/all/GCA_000771405.1_DSM-20433
+Barnesiella intestinihominis YIT 11860 /genomes/all/GCA_000296465.1_Barn_inte_YIT_11860_V1
+Yersinia enterocolitica subsp. enterocolitica 8081 /genomes/all/GCA_000009345.1_ASM934v1
+Yersinia enterocolitica subsp. palearctica 105.5R(r) /genomes/all/GCA_000192105.1_ASM19210v1
+Yersinia enterocolitica (type O:3) str. YE12/03 /genomes/all/GCA_001050795.1_ASM105079v1
+Yersinia enterocolitica (type O:5) str. YE53/03 /genomes/all/GCA_000968115.1_ASM96811v1
+Yersinia enterocolitica subsp. palearctica 647/5307 /genomes/all/GCA_000284955.1_ASM28495v1
+Yersinia enterocolitica /genomes/all/GCA_001223425.1_5749_7_2
+Yersinia enterocolitica subsp. palearctica Y11 /genomes/all/GCA_000253175.1_ASM25317v1
+Yersinia enterocolitica LC20 /genomes/all/GCA_000597945.1_ASM59794v1
+Yersinia enterocolitica (type O:9) str. YE56/03 /genomes/all/GCA_001050755.1_ASM105075v1
+Yersinia enterocolitica subsp. palearctica PhRBD_Ye1 /genomes/all/GCA_000230775.2_ASM23077v2
+Porphyromonas sp. 31_2 /genomes/all/GCA_000712235.1_Porphyromonas_sp_31_2_V2
+Porphyromonas sp. COT-290 OH860 /genomes/all/GCA_000768935.1_ASM76893v1
+Porphyromonas sp. COT-108 OH1349 /genomes/all/GCA_000768755.1_ASM76875v1
+Porphyromonas sp. oral taxon 279 str. F0450 /genomes/all/GCA_000292995.1_Psp279F0450v1.0
+Porphyromonas sp. COT-239 OH1446 /genomes/all/GCA_000768875.1_ASM76887v1
+Porphyromonas sp. CAG:1061 /genomes/all/GCA_000435035.1_MGS1061
+Porphyromonas sp. COT-052 OH4946 /genomes/all/GCA_000765965.1_ASM76596v1
+Porphyromonas sp. COT-290 OH3588 /genomes/all/GCA_000769075.1_ASM76907v1
+Porphyromonas sp. oral taxon 278 str. W7784 /genomes/all/GCA_000467855.1_ASM46785v1
+Porphyromonas sp. COT-108 OH2963 /genomes/all/GCA_000768895.1_ASM76889v1
+Prevotella melaninogenica D18 /genomes/all/GCA_000163035.1_ASM16303v1
+Prevotella melaninogenica DNF00666 /genomes/all/GCA_000759305.1_04_NF40_HMP661v01
+Prevotella melaninogenica ATCC 25845 /genomes/all/GCA_000144405.1_ASM14440v1
+Slackia piriformis YIT 12062 /genomes/all/GCA_000296445.1_Slac_piri_YIT_12062_V1
+Streptococcus mitis SPAR10 /genomes/all/GCA_000279535.1_ASM27953v1
+Streptococcus mitis 17/34 /genomes/all/GCA_000430305.1_Smit.str17_34_v1.0
+Streptococcus mitis 29/42 /genomes/all/GCA_000430365.1_Smit.str29_42_v1.0
+Streptococcus mitis SK321 /genomes/all/GCA_000148505.2_ASM14850v1
+Streptococcus mitis /genomes/all/GCA_001281025.1_ASM128102v1
+Streptococcus mitis SK1080 /genomes/all/GCA_000220085.2_ASM22008v2
+Streptococcus mitis B6 /genomes/all/GCA_000027165.1_ASM2716v1
+Streptococcus mitis SK569 /genomes/all/GCA_000222785.2_ASM22278v2
+Streptococcus mitis bv. 2 str. F0392 /genomes/all/GCA_000221165.2_ASM22116v2
+Streptococcus mitis SK597 /genomes/all/GCA_000148545.2_ASM14854v1
+Megasphaera sp. UPII 199-6 /genomes/all/GCA_000214495.2_ASM21449v1
+Megasphaera sp. BL7 /genomes/all/GCA_000417525.1_BL7version1
+Megasphaera sp. UPII 135-E /genomes/all/GCA_000221545.2_ASM22154v1
+Megasphaera sp. BV3C16-1 /genomes/all/GCA_000478965.1_MspBV3C16-1v1.0
+Megasphaera sp. NM10 /genomes/all/GCA_000417505.1_NM10version1
+[Clostridium] sordellii /genomes/all/GCA_000953675.1_ATCC9714_
+[Clostridium] sordellii ATCC 9714 /genomes/all/GCA_000444075.1_ASM44407v1
+[Clostridium] sordellii VPI 9048 /genomes/all/GCA_000444095.1_ASM44409v1
+[Clostridium] sordellii 8483 /genomes/all/GCA_001023455.1_ASM102345v1
+Bacteroides vulgatus str. 3775 SR(B) 19 /genomes/all/GCA_000699845.1_ASM69984v1
+Bacteroides vulgatus CL09T03C04 /genomes/all/GCA_000273295.1_Bact_vulg_CL09T03C04_V1
+Bacteroides vulgatus ATCC 8482 /genomes/all/GCA_000012825.1_ASM1282v1
+Bacteroides vulgatus CAG:6 /genomes/all/GCA_000438035.1_MGS6
+Bacteroides vulgatus str. 3775 SL(B) 10 (iv) /genomes/all/GCA_000699705.1_ASM69970v1
+Bacteroides vulgatus str. 3975 RP4 /genomes/all/GCA_000699865.1_ASM69986v1
+Bacteroides vulgatus PC510 /genomes/all/GCA_000178195.1_ASM17819v1
+Bacteroides vulgatus dnLKV7 /genomes/all/GCA_000403235.2_Bact_vulg_dnLKV7_V1
+[Eubacterium] siraeum DSM 15702 /genomes/all/GCA_000382085.1_ASM38208v1
