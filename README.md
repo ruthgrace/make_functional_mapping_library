@@ -70,5 +70,5 @@ The end result is that all the genomes I need for my functional mapping library 
 ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a bash script that runs the g3-iterated Glimmer script on all genomes for which we were only able to colleted a .gff file and not a feature_table.txt. These are stored in their respective folders as 
 
 ```bash
-./extract_orfs.sh
+nohup ./extract_orfs.sh > extract_orfs_nohup.out 2>&1&
 ```
