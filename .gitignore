@@ -3,3 +3,4 @@ data/genomes/
 data/nash_data/
 output/complete-genomes-Alignment-HitTable.csv
 output/draft-genomes-Alignment-HitTable.csv
+glimmer
