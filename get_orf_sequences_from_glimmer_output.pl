@@ -34,7 +34,6 @@ open (IN, "< $contig_file") or die "$!\n";
 		chomp $l;
 		if ($l =~ /^>/) {
 			$lastID = $l;
-			($lastID) = $lastID =~ /\A([^:\s]+)/;
 		}
 		$contig{$lastID} .= $l if $l !~ /^>/;
 	}	
@@ -45,19 +44,20 @@ my $i = 1;
 open (IN, "< $coord_file") or die "$!\n";
 	while(defined(my $l = <IN>)){
 		chomp $l;
-		if ($l !~ /^#/){
+		if ($l =~ /^>/) {
+			$lastID = $l;
+		}
+		if ($l !~ /^>/){
 			my @l = split/\t/, $l;
-			if ($l[0] eq "CDS") {
-				my $id = ">" . $l[6];
-				my $start = $l[7] -1;
-				my $len = $l[8] - $l[7] +1;
-				my $orf = uc( substr($contig{$id}, $start, $len) );
-				
-				$orf = rev($orf) if $l[9] eq "-";
-				
-				print FILE "$id|$l[10]\n$orf\n";
-				$i++;
-			}
+			my $id = ">" . $l[6];
+			my $start = $l[7] -1;
+			my $len = $l[8] - $l[7] +1;
+			my $orf = uc( substr($contig{$id}, $start, $len) );
+			
+			$orf = rev($orf) if $l[9] eq "-";
+			
+			print FILE "$id|$l[10]\n$orf\n";
+			$i++;
 		}
 	}
 close IN;
