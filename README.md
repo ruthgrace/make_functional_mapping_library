@@ -65,6 +65,8 @@ gunzip *.gz
 
 The end result is that all the genomes I need for my functional mapping library are in data/genomes/. For each genome, I've downloaded a feature table and a .fna file, so that the coding sequences can be extracted in the next step. Some of the sequences do not have a feature table, and in this case I've downloaded the .gff instead.
 
+//TODO: Make sure that genus match even if surrounded by square brackets (e.g. "[Clostridium]" and "Clostridium" are the same genus)
+
 ## Extract coordinates of coding sequences from genomes
 
 ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a bash script that runs the first steps of the iterated Glimmer script on all genomes for which we were only able to colleted a .gff file and not a feature_table.txt. The coordinates are output in the data/glimmer_output folder

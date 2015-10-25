@@ -4,6 +4,11 @@ do
 	filename=${filename%_feature_table.txt}
 	line=$(head -n 1 "./data/genomes/"$filename"_genomic.fna")
 	genus=`echo $line | cut -d " " -f 2`
+	if  [[ $genus == \[* ]] ;
+	then
+	    len=${#genus}
+	    genus=${genus:1:(len-2)}
+	fi
 	echo $f
 	echo $filename
 	echo $genus

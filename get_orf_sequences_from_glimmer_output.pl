@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
 use strict;
+use Cwd;
 
 #output ORF DNA sequences from a gtf file and a contig fasta file
 
@@ -10,11 +11,20 @@ use strict;
 ################
 
 my $contig_file = $ARGV[0] if $ARGV[0];
-my $gff_file = $ARGV[1] if $ARGV[1];
-print "contig file as first argument gtf file as second argument\n" if !$ARGV[0];
-print "contig file as first argument gtf file as second argument\n" if !$ARGV[1];
+my $coord_file = $ARGV[1] if $ARGV[1];
+my $outfile = $ARGV[2] if $ARGV[2];
+print "contig file as 1st argument, coord file from glimmer as 2nd argument, output file as 3rd argmument \n" if !$ARGV[0];
+print "contig file as 1st argument, coord file from glimmer as 2nd argument, output file as 3rd argmument \n" if !$ARGV[1];
+print "contig file as 1st argument, coord file from glimmer as 2nd argument, output file as 3rd argmument \n" if !$ARGV[2];
 exit if !$ARGV[0];
 exit if !$ARGV[1];
+exit if !$ARGV[2];
+
+my $dir = getcwd;
+
+unless(open FILE, '>', $outfile) {
+    die "\nUnable to open $outfile: $!\n";
+}
 
 my %contig;
 my $lastID;
@@ -22,31 +32,39 @@ my $lastID;
 open (IN, "< $contig_file") or die "$!\n";
 	while(defined(my $l = <IN>)){
 		chomp $l;
-		$lastID = $l if $l =~ /^>/;
+		if ($l =~ /^>/) {
+			$lastID = $l;
+			($lastID) = $lastID =~ /\A([^:\s]+)/;
+		}
 		$contig{$lastID} .= $l if $l !~ /^>/;
 	}	
 close IN;
 
-#open the gtf file second
+#open the glimmer coord file second
 my $i = 1;
-open (IN, "< $gff_file") or die "$!\n";
+open (IN, "< $coord_file") or die "$!\n";
 	while(defined(my $l = <IN>)){
 		chomp $l;
 		if ($l !~ /^#/){
 			my @l = split/\t/, $l;
-			my $id = ">" . $l[0];
-			my $start = $l[3] -1;
-			my $len = $l[4] - $l[3] -1;
-			my $orf = uc( substr($contig{$id}, $start, $len) );
-			
-			$orf = rev($orf) if $l[6] eq "-";
-			
-			print "$id|$l[-1]\n$orf\n";
-			$i++;
+			if ($l[0] eq "CDS") {
+				my $id = ">" . $l[6];
+				my $start = $l[7] -1;
+				my $len = $l[8] - $l[7] +1;
+				my $orf = uc( substr($contig{$id}, $start, $len) );
+				
+				$orf = rev($orf) if $l[9] eq "-";
+				
+				print FILE "$id|$l[10]\n$orf\n";
+				$i++;
+			}
 		}
-	}	
+	}
 close IN;
 
+close FILE;
+
+print "$i ORFS output into $outfile";
 
 sub rev{
        my $seq;
