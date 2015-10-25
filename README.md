@@ -75,6 +75,8 @@ ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a b
 nohup ./extract_orf_coordinates_from_gff.sh > extract_orfs_nohup.out 2>&1&
 ```
 
+Note that after I ran this, a couple of output files were empty, presumably because no ORFs were found.
+
 ## Output coding sequences into fasta files
 
 This bash script uses the `get_orf_sequences_from_feature_table.pl` Perl script to write the ORF sequences denoted by the feature tables into a fasta file, into a folder named the same as the genus in data/orfs/.

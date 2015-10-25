@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use Cwd;
+use warnings;
 
 #output ORF DNA sequences from a gtf file and a contig fasta file
 
@@ -28,12 +29,17 @@ unless(open FILE, '>', $outfile) {
 
 my %contig;
 my $lastID;
+my $firstID="";
 #open the contig file first and save string in a hash keyed by contig name
 open (IN, "< $contig_file") or die "$!\n";
 	while(defined(my $l = <IN>)){
 		chomp $l;
 		if ($l =~ /^>/) {
 			$lastID = $l;
+			#for some reason the first ID from the glimmer output is always missing, so save it here
+			if ($firstID eq "") {
+				$firstID=$l;
+			}
 		}
 		$contig{$lastID} .= $l if $l !~ /^>/;
 	}	
@@ -41,22 +47,27 @@ close IN;
 
 #open the glimmer coord file second
 my $i = 1;
+$lastID=$firstID;
 open (IN, "< $coord_file") or die "$!\n";
 	while(defined(my $l = <IN>)){
 		chomp $l;
 		if ($l =~ /^>/) {
 			$lastID = $l;
 		}
-		if ($l !~ /^>/){
-			my @l = split/\t/, $l;
-			my $id = ">" . $l[6];
-			my $start = $l[7] -1;
-			my $len = $l[8] - $l[7] +1;
-			my $orf = uc( substr($contig{$id}, $start, $len) );
+		if (($l !~ /^>/) && ($l ne "")){
+			my @l = split/\s+/, $l;
+			my $start = $l[1] -1;
+			my $end = $l[2];
+			if ($end < $start) {
+				my $temp = $start;
+				$start = $end;
+				$end = $temp;
+			}
+			my $len = $end - $start +1;
+			my $orf = uc( substr($contig{$lastID}, $start, $len) );
+			$orf = rev($orf) if $l[3] =~ /^-*/;
 			
-			$orf = rev($orf) if $l[9] eq "-";
-			
-			print FILE "$id|$l[10]\n$orf\n";
+			print FILE "$lastID|$l[0]\n$orf\n";
 			$i++;
 		}
 	}
