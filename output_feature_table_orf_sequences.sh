@@ -1,0 +1,1 @@
+./get_orf_sequences_from_feature_table.pl data/genomes/GCA_000003135.1_ASM313v1_genomic.fna data/genomes/GCA_000003135.1_ASM313v1_feature_table.txt data/orfs/GCA_000003135.1_ASM313v1_orfs.fa

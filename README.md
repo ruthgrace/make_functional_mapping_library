@@ -65,10 +65,35 @@ gunzip *.gz
 
 The end result is that all the genomes I need for my functional mapping library are in data/genomes/. For each genome, I've downloaded a feature table and a .fna file, so that the coding sequences can be extracted in the next step. Some of the sequences do not have a feature table, and in this case I've downloaded the .gff instead.
 
-## Extract coding sequences from genomes
+## Extract coordinates of coding sequences from genomes
 
-ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a bash script that runs the g3-iterated Glimmer script on all genomes for which we were only able to colleted a .gff file and not a feature_table.txt. These are stored in their respective folders as 
+ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a bash script that runs the first steps of the iterated Glimmer script on all genomes for which we were only able to colleted a .gff file and not a feature_table.txt. The coordinates are output in the data/glimmer_output folder
 
 ```bash
-nohup ./extract_orfs.sh > extract_orfs_nohup.out 2>&1&
+nohup ./extract_orf_coordinates_from_gff.sh > extract_orfs_nohup.out 2>&1&
 ```
+
+## Output coding sequences into fasta files
+
+This bash script uses the `get_orf_sequences_from_feature_table.pl` Perl script to write the ORF sequences denoted by the feature tables into a fasta file, into a folder named the same as the genus in data/orfs/.
+
+```bash
+nohup ./output_feature_table_orf_sequences.sh > feature_table_orfs_output_nohup.out 2>&1&
+```
+
+This bash script uses the `get_orf_sequences_from_glimmer_output.pl` Perl script to write the ORF sequences denoted by the .coord files output by Glimmer into a fasta file, into a folder named the same as the genus in data/orfs/.
+
+```bash
+nohup ./output_glimmer_coord_orf_sequences.sh > glimmer_coord_orfs_output_nohup.out 2>&1&
+```
+
+## Clustering at 100% by genus
+
+Put all the ORF sequences into a single giant file:
+
+```bash
+```
+
+Cluster using CD-HIT:
+
+## Clustering at 95% between genus
