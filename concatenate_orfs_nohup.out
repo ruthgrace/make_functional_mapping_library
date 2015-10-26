@@ -1,0 +1,149 @@
+./data/orfs
+
+cat: ./data/orfs/Acidaminococcus: Is a directory
+cat: ./data/orfs/Acinetobacter: Is a directory
+cat: ./data/orfs/Adlercreutzia: Is a directory
+cat: ./data/orfs/Aeromicrobium: Is a directory
+cat: ./data/orfs/Akkermansia: Is a directory
+cat: ./data/orfs/Alistipes: Is a directory
+cat: ./data/orfs/Anaerostipes: Is a directory
+cat: ./data/orfs/Bacteroides: Is a directory
+cat: ./data/orfs/Barnesiella: Is a directory
+cat: ./data/orfs/Bifidobacterium: Is a directory
+cat: ./data/orfs/Blautia: Is a directory
+cat: ./data/orfs/Burkholderia: Is a directory
+cat: ./data/orfs/Burkholderiales: Is a directory
+cat: ./data/orfs/Butyrivibrio: Is a directory
+cat: ./data/orfs/Candidatus: Is a directory
+cat: ./data/orfs/Carnobacterium: Is a directory
+cat: ./data/orfs/Catenibacterium: Is a directory
+cat: ./data/orfs/Chlamydia: Is a directory
+cat: ./data/orfs/Clostridiales: Is a directory
+cat: ./data/orfs/Clostridium: Is a directory
+cat: ./data/orfs/Collinsella: Is a directory
+cat: ./data/orfs/Coprobacillus: Is a directory
+cat: ./data/orfs/Coprococcus: Is a directory
+cat: ./data/orfs/Coriobacterium: Is a directory
+cat: ./data/orfs/Dehalobacter: Is a directory
+cat: ./data/orfs/Delftia: Is a directory
+cat: ./data/orfs/Desulfovibrio: Is a directory
+cat: ./data/orfs/Devosia: Is a directory
+cat: ./data/orfs/Dialister: Is a directory
+cat: ./data/orfs/Dorea: Is a directory
+cat: ./data/orfs/Dysgonomonas: Is a directory
+cat: ./data/orfs/Eggerthella: Is a directory
+cat: ./data/orfs/Endosymbiont: Is a directory
+cat: ./data/orfs/Enterobacteriaceae: Is a directory
+cat: ./data/orfs/Enterococcus: Is a directory
+cat: ./data/orfs/Enterorhabdus: Is a directory
+cat: ./data/orfs/Erwinia: Is a directory
+cat: ./data/orfs/Erysipelothrix: Is a directory
+cat: ./data/orfs/Erysipelotrichaceae: Is a directory
+cat: ./data/orfs/Escherichia: Is a directory
+cat: ./data/orfs/Ethanoligenens: Is a directory
+cat: ./data/orfs/Eubacteriaceae: Is a directory
+cat: ./data/orfs/Eubacterium: Is a directory
+cat: ./data/orfs/Ewingella: Is a directory
+cat: ./data/orfs/Exiguobacterium: Is a directory
+cat: ./data/orfs/Faecalibacterium: Is a directory
+cat: ./data/orfs/Firmicutes: Is a directory
+cat: ./data/orfs/Fusobacterium: Is a directory
+cat: ./data/orfs/Gamma: Is a directory
+cat: ./data/orfs/Hafnia: Is a directory
+cat: ./data/orfs/Herbaspirillum: Is a directory
+cat: ./data/orfs/Intestinibacter: Is a directory
+cat: ./data/orfs/Intestinimonas: Is a directory
+cat: ./data/orfs/Lachnobacterium: Is a directory
+cat: ./data/orfs/Lachnoclostridium: Is a directory
+cat: ./data/orfs/Lachnospiraceae: Is a directory
+cat: ./data/orfs/Lactobacillus: Is a directory
+cat: ./data/orfs/Lonsdalea: Is a directory
+cat: ./data/orfs/Lysinibacillus: Is a directory
+cat: ./data/orfs/Megamonas: Is a directory
+cat: ./data/orfs/Megasphaera: Is a directory
+cat: ./data/orfs/Mycobacterium: Is a directory
+cat: ./data/orfs/Neisseria: Is a directory
+cat: ./data/orfs/Odoribacter: Is a directory
+cat: ./data/orfs/Olsenella: Is a directory
+cat: ./data/orfs/Oscillibacter: Is a directory
+cat: ./data/orfs/Oscillospiraceae: Is a directory
+cat: ./data/orfs/Pantoea: Is a directory
+cat: ./data/orfs/Parabacteroides: Is a directory
+cat: ./data/orfs/Paraprevotella: Is a directory
+cat: ./data/orfs/Parasutterella: Is a directory
+cat: ./data/orfs/Parcubacteria: Is a directory
+cat: ./data/orfs/Pectobacterium: Is a directory
+cat: ./data/orfs/Peptoclostridium: Is a directory
+cat: ./data/orfs/Peptostreptococcaceae: Is a directory
+cat: ./data/orfs/Phascolarctobacterium: Is a directory
+cat: ./data/orfs/Plesiomonas: Is a directory
+cat: ./data/orfs/Porphyromonas: Is a directory
+cat: ./data/orfs/Prevotella: Is a directory
+cat: ./data/orfs/Proteobacteria: Is a directory
+cat: ./data/orfs/Proteus: Is a directory
+cat: ./data/orfs/Pseudomonas: Is a directory
+cat: ./data/orfs/Rahnella: Is a directory
+cat: ./data/orfs/Ralstonia: Is a directory
+cat: ./data/orfs/Roseburia: Is a directory
+cat: ./data/orfs/Rouxiella: Is a directory
+cat: ./data/orfs/Ruminococcaceae: Is a directory
+cat: ./data/orfs/Ruminococcus: Is a directory
+cat: ./data/orfs/Selenomonas: Is a directory
+cat: ./data/orfs/Serratia: Is a directory
+cat: ./data/orfs/Shigella: Is a directory
+cat: ./data/orfs/Slackia: Is a directory
+cat: ./data/orfs/Sphingomonas: Is a directory
+cat: ./data/orfs/Spiroplasma: Is a directory
+cat: ./data/orfs/Streptococcus: Is a directory
+cat: ./data/orfs/Subdoligranulum: Is a directory
+cat: ./data/orfs/Sutterellaceae: Is a directory
+cat: ./data/orfs/Synthetic: Is a directory
+cat: ./data/orfs/Terrisporobacter: Is a directory
+cat: ./data/orfs/Veillonella: Is a directory
+cat: ./data/orfs/Xanthomonas: Is a directory
+cat: ./data/orfs/Yersinia: Is a directory
+cat: ./data/orfs/bacterium: Is a directory
+./data/orfs/Acidaminococcus
+Acidaminococcus
+./data/orfs/Acinetobacter
+Acinetobacter
+./data/orfs/Adlercreutzia
+Adlercreutzia
+./data/orfs/Aeromicrobium
+Aeromicrobium
+./data/orfs/Akkermansia
+Akkermansia
+./data/orfs/Alistipes
+Alistipes
+./data/orfs/Anaerostipes
+Anaerostipes
+./data/orfs/bacterium
+bacterium
+./data/orfs/Bacteroides
+Bacteroides
+./data/orfs/Barnesiella
+Barnesiella
+./data/orfs/Bifidobacterium
+Bifidobacterium
+./data/orfs/Blautia
+Blautia
+./data/orfs/Burkholderia
+Burkholderia
+./data/orfs/Burkholderiales
+Burkholderiales
+./data/orfs/Butyrivibrio
+Butyrivibrio
+./data/orfs/Candidatus
+Candidatus
+./data/orfs/Carnobacterium
+Carnobacterium
+./data/orfs/Catenibacterium
+Catenibacterium
+./data/orfs/Chlamydia
+Chlamydia
+./data/orfs/Clostridiales
+Clostridiales
+./data/orfs/Clostridium
+Clostridium
+./data/orfs/Collinsella
+Collinsella

@@ -98,8 +98,13 @@ As a sanity check, you may want to throw your ORFs into a protein translator, an
 This script concatenates all the fasta files in each genus folder in `data/orfs/` into one fasta file per genus.
 
 ```bash
+
 ```
 
-The orfs for each genus are clustered at 100% identity using CD-HIT:
+The orfs for each genus are clustered at 100% identity using UCLUST:
+
+```bash
+nohup usearch -cluster_fast ../reference_lists/wget/all.ffn -id 0.95 -centroids centroids.ffn -uc clusters_id95.uc &
+```
 
 ## Clustering at 95% between genus
