@@ -91,13 +91,15 @@ This bash script uses the `get_orf_sequences_from_glimmer_output.pl` Perl script
 nohup ./output_glimmer_coord_orf_sequences.sh > glimmer_coord_orfs_output_nohup.out 2>&1&
 ```
 
+As a sanity check, you may want to throw your ORFs into a protein translator, and blast them to make sure they're real protein sequences.
+
 ## Clustering at 100% by genus
 
-Put all the ORF sequences into a single giant file:
+This script concatenates all the fasta files in each genus folder in `data/orfs/` into one fasta file per genus.
 
 ```bash
 ```
 
-Cluster using CD-HIT:
+The orfs for each genus are clustered at 100% identity using CD-HIT:
 
 ## Clustering at 95% between genus

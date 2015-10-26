@@ -1,0 +1,799 @@
+./data/genomes/GCA_000173135.1_ASM17313v1_genomic.gff
+GCA_000173135.1_ASM17313v1
+Pectobacterium
+1 ORFS output into data/orfs/Pectobacterium/GCA_000173135.1_ASM17313v1_orfs.fa./data/genomes/GCA_000173155.1_ASM17315v1_genomic.gff
+GCA_000173155.1_ASM17315v1
+Pectobacterium
+1 ORFS output into data/orfs/Pectobacterium/GCA_000173155.1_ASM17315v1_orfs.fa./data/genomes/GCA_000175515.1_ASM17551v1_genomic.gff
+GCA_000175515.1_ASM17551v1
+Chlamydia
+976 ORFS output into data/orfs/Chlamydia/GCA_000175515.1_ASM17551v1_orfs.fa./data/genomes/GCA_000183825.1_ASM18382v1_genomic.gff
+GCA_000183825.1_ASM18382v1
+Lactobacillus
+1853 ORFS output into data/orfs/Lactobacillus/GCA_000183825.1_ASM18382v1_orfs.fa./data/genomes/GCA_000208425.2_ASM20842v2_genomic.gff
+GCA_000208425.2_ASM20842v2
+Escherichia
+3256 ORFS output into data/orfs/Escherichia/GCA_000208425.2_ASM20842v2_orfs.fa./data/genomes/GCA_000208505.2_ASM20850v2_genomic.gff
+GCA_000208505.2_ASM20850v2
+Escherichia
+4107 ORFS output into data/orfs/Escherichia/GCA_000208505.2_ASM20850v2_orfs.fa./data/genomes/GCA_000211235.1_ASM21123v1_genomic.gff
+GCA_000211235.1_ASM21123v1
+Clostridium
+4055 ORFS output into data/orfs/Clostridium/GCA_000211235.1_ASM21123v1_orfs.fa./data/genomes/GCA_000226135.2_ASM22613v2_genomic.gff
+GCA_000226135.2_ASM22613v2
+Bacteroides
+4667 ORFS output into data/orfs/Bacteroides/GCA_000226135.2_ASM22613v2_orfs.fa./data/genomes/GCA_000242835.1_ASM24283v1_genomic.gff
+GCA_000242835.1_ASM24283v1
+Sphingomonas
+4365 ORFS output into data/orfs/Sphingomonas/GCA_000242835.1_ASM24283v1_orfs.fa./data/genomes/GCA_000251145.2_ASM25114v2_genomic.gff
+GCA_000251145.2_ASM25114v2
+Sphingomonas
+5194 ORFS output into data/orfs/Sphingomonas/GCA_000251145.2_ASM25114v2_orfs.fa./data/genomes/GCA_000255495.2_ASM25549v2_genomic.gff
+GCA_000255495.2_ASM25549v2
+Lactobacillus
+1577 ORFS output into data/orfs/Lactobacillus/GCA_000255495.2_ASM25549v2_orfs.fa./data/genomes/GCA_000255515.2_ASM25551v2_genomic.gff
+GCA_000255515.2_ASM25551v2
+Lactobacillus
+1639 ORFS output into data/orfs/Lactobacillus/GCA_000255515.2_ASM25551v2_orfs.fa./data/genomes/GCA_000260635.1_ASM26063v1_genomic.gff
+GCA_000260635.1_ASM26063v1
+Lactobacillus
+1 ORFS output into data/orfs/Lactobacillus/GCA_000260635.1_ASM26063v1_orfs.fa./data/genomes/GCA_000269565.1_PB_Copr_sp_D6_V1_genomic.gff
+GCA_000269565.1_PB_Copr_sp_D6_V1
+Coprobacillus
+3871 ORFS output into data/orfs/Coprobacillus/GCA_000269565.1_PB_Copr_sp_D6_V1_orfs.fa./data/genomes/GCA_000273465.1_PB_Bact_egge_1_2_48FAA_V1_genomic.gff
+GCA_000273465.1_PB_Bact_egge_1_2_48FAA_V1
+Bacteroides
+4151 ORFS output into data/orfs/Bacteroides/GCA_000273465.1_PB_Bact_egge_1_2_48FAA_V1_orfs.fa./data/genomes/GCA_000273625.1_PB_Fuso_sp_7_1_V1_genomic.gff
+GCA_000273625.1_PB_Fuso_sp_7_1_V1
+Fusobacterium
+2454 ORFS output into data/orfs/Fusobacterium/GCA_000273625.1_PB_Fuso_sp_7_1_V1_orfs.fa./data/genomes/GCA_000280535.1_CloBeiG117_1.0_genomic.gff
+GCA_000280535.1_CloBeiG117_1.0
+Clostridium
+5276 ORFS output into data/orfs/Clostridium/GCA_000280535.1_CloBeiG117_1.0_orfs.fa./data/genomes/GCA_000283715.1_ASM28371v1_genomic.gff
+GCA_000283715.1_ASM28371v1
+Shigella
+5143 ORFS output into data/orfs/Shigella/GCA_000283715.1_ASM28371v1_orfs.fa./data/genomes/GCA_000284935.1_ASM28493v1_genomic.gff
+GCA_000284935.1_ASM28493v1
+Yersinia
+3079 ORFS output into data/orfs/Yersinia/GCA_000284935.1_ASM28493v1_orfs.fa./data/genomes/GCA_000285455.1_ASM28545v1_genomic.gff
+GCA_000285455.1_ASM28545v1
+Alistipes
+1 ORFS output into data/orfs/Alistipes/GCA_000285455.1_ASM28545v1_orfs.fa./data/genomes/GCA_000285855.2_ASM28585v2_genomic.gff
+GCA_000285855.2_ASM28585v2
+Ruminococcus
+4993 ORFS output into data/orfs/Ruminococcus/GCA_000285855.2_ASM28585v2_orfs.fa./data/genomes/GCA_000292365.1_ASM29236v1_genomic.gff
+GCA_000292365.1_ASM29236v1
+Serratia
+4793 ORFS output into data/orfs/Serratia/GCA_000292365.1_ASM29236v1_orfs.fa./data/genomes/GCA_000292385.1_ASM29238v1_genomic.gff
+GCA_000292385.1_ASM29238v1
+Acinetobacter
+2734 ORFS output into data/orfs/Acinetobacter/GCA_000292385.1_ASM29238v1_orfs.fa./data/genomes/GCA_000297135.1_ASM29713v1_genomic.gff
+GCA_000297135.1_ASM29713v1
+Endosymbiont
+516 ORFS output into data/orfs/Endosymbiont/GCA_000297135.1_ASM29713v1_orfs.fa./data/genomes/GCA_000302695.1_LSJC7_1.0_genomic.gff
+GCA_000302695.1_LSJC7_1.0
+Enterobacteriaceae
+4485 ORFS output into data/orfs/Enterobacteriaceae/GCA_000302695.1_LSJC7_1.0_orfs.fa./data/genomes/GCA_000307305.1_ASM30730v1_genomic.gff
+GCA_000307305.1_ASM30730v1
+Enterobacteriaceae
+3594 ORFS output into data/orfs/Enterobacteriaceae/GCA_000307305.1_ASM30730v1_orfs.fa./data/genomes/GCA_000312105.1_ASM31210v1_genomic.gff
+GCA_000312105.1_ASM31210v1
+Aeromicrobium
+3305 ORFS output into data/orfs/Aeromicrobium/GCA_000312105.1_ASM31210v1_orfs.fa./data/genomes/GCA_000312145.1_ASM31214v1_genomic.gff
+GCA_000312145.1_ASM31214v1
+Alistipes
+3419 ORFS output into data/orfs/Alistipes/GCA_000312145.1_ASM31214v1_orfs.fa./data/genomes/GCA_000313255.1_Version_1_for_Proteus_mirabilis_C05028_genome_genomic.gff
+GCA_000313255.1_Version_1_for_Proteus_mirabilis_C05028_genome
+Proteus
+3481 ORFS output into data/orfs/Proteus/GCA_000313255.1_Version_1_for_Proteus_mirabilis_C05028_genome_orfs.fa./data/genomes/GCA_000321205.1_ASM32120v1_genomic.gff
+GCA_000321205.1_ASM32120v1
+Alistipes
+2182 ORFS output into data/orfs/Alistipes/GCA_000321205.1_ASM32120v1_orfs.fa./data/genomes/GCA_000331875.1_FJAT-91_genomic.gff
+GCA_000331875.1_FJAT-91
+Ralstonia
+5431 ORFS output into data/orfs/Ralstonia/GCA_000331875.1_FJAT-91_orfs.fa./data/genomes/GCA_000331895.1_FJAT-1458_genomic.gff
+GCA_000331895.1_FJAT-1458
+Ralstonia
+5800 ORFS output into data/orfs/Ralstonia/GCA_000331895.1_FJAT-1458_orfs.fa./data/genomes/GCA_000333815.1_ASM33381v1_genomic.gff
+GCA_000333815.1_ASM33381v1
+Collinsella
+2004 ORFS output into data/orfs/Collinsella/GCA_000333815.1_ASM33381v1_orfs.fa./data/genomes/GCA_000335795.1_WG36.1.0_genomic.gff
+GCA_000335795.1_WG36.1.0
+Gamma
+4782 ORFS output into data/orfs/Gamma/GCA_000335795.1_WG36.1.0_orfs.fa./data/genomes/GCA_000344015.1_ASM34401v1_genomic.gff
+GCA_000344015.1_ASM34401v1
+Yersinia
+3732 ORFS output into data/orfs/Yersinia/GCA_000344015.1_ASM34401v1_orfs.fa./data/genomes/GCA_000344055.1_ASM34405v1_genomic.gff
+GCA_000344055.1_ASM34405v1
+Yersinia
+4091 ORFS output into data/orfs/Yersinia/GCA_000344055.1_ASM34405v1_orfs.fa./data/genomes/GCA_000372565.1_PM_version_1_genomic.gff
+GCA_000372565.1_PM_version_1
+Proteus
+3497 ORFS output into data/orfs/Proteus/GCA_000372565.1_PM_version_1_orfs.fa./data/genomes/GCA_000372785.1_ASM37278v1_genomic.gff
+GCA_000372785.1_ASM37278v1
+gamma
+1452 ORFS output into data/orfs/gamma/GCA_000372785.1_ASM37278v1_orfs.fa./data/genomes/GCA_000373885.1_ASM37388v1_genomic.gff
+GCA_000373885.1_ASM37388v1
+Blautia
+6045 ORFS output into data/orfs/Blautia/GCA_000373885.1_ASM37388v1_orfs.fa./data/genomes/GCA_000374505.1_ASM37450v1_genomic.gff
+GCA_000374505.1_ASM37450v1
+Alistipes
+3122 ORFS output into data/orfs/Alistipes/GCA_000374505.1_ASM37450v1_orfs.fa./data/genomes/GCA_000382085.1_ASM38208v1_genomic.gff
+GCA_000382085.1_ASM38208v1
+Eubacterium
+2462 ORFS output into data/orfs/Eubacterium/GCA_000382085.1_ASM38208v1_orfs.fa./data/genomes/GCA_000382485.1_Mn802_genomic.gff
+GCA_000382485.1_Mn802
+Sphingomonas
+3161 ORFS output into data/orfs/Sphingomonas/GCA_000382485.1_Mn802_orfs.fa./data/genomes/GCA_000383395.1_ASM38339v1_genomic.gff
+GCA_000383395.1_ASM38339v1
+gamma
+830 ORFS output into data/orfs/gamma/GCA_000383395.1_ASM38339v1_orfs.fa./data/genomes/GCA_000384815.1_ASM38481v1_genomic.gff
+GCA_000384815.1_ASM38481v1
+Desulfovibrio
+2758 ORFS output into data/orfs/Desulfovibrio/GCA_000384815.1_ASM38481v1_orfs.fa./data/genomes/GCA_000384915.1_ASM38491v1_genomic.gff
+GCA_000384915.1_ASM38491v1
+Gamma
+1787 ORFS output into data/orfs/Gamma/GCA_000384915.1_ASM38491v1_orfs.fa./data/genomes/GCA_000384955.1_ASM38495v1_genomic.gff
+GCA_000384955.1_ASM38495v1
+Gamma
+1006 ORFS output into data/orfs/Gamma/GCA_000384955.1_ASM38495v1_orfs.fa./data/genomes/GCA_000384995.1_ASM38499v1_genomic.gff
+GCA_000384995.1_ASM38499v1
+Gamma
+1417 ORFS output into data/orfs/Gamma/GCA_000384995.1_ASM38499v1_orfs.fa./data/genomes/GCA_000385035.1_ASM38503v1_genomic.gff
+GCA_000385035.1_ASM38503v1
+Gamma
+465 ORFS output into data/orfs/Gamma/GCA_000385035.1_ASM38503v1_orfs.fa./data/genomes/GCA_000403745.1_B-7195_genomic.gff
+GCA_000403745.1_B-7195
+Yersinia
+4292 ORFS output into data/orfs/Yersinia/GCA_000403745.1_B-7195_orfs.fa./data/genomes/GCA_000403945.1_Dsv1_genomic.gff
+GCA_000403945.1_Dsv1
+Desulfovibrio
+2598 ORFS output into data/orfs/Desulfovibrio/GCA_000403945.1_Dsv1_orfs.fa./data/genomes/GCA_000418815.1_S_marcescensMC620-1.0_genomic.gff
+GCA_000418815.1_S_marcescensMC620-1.0
+Serratia
+5904 ORFS output into data/orfs/Serratia/GCA_000418815.1_S_marcescensMC620-1.0_orfs.fa./data/genomes/GCA_000418855.1_S_marcescensMC6000-1.0_genomic.gff
+GCA_000418855.1_S_marcescensMC6000-1.0
+Serratia
+3928 ORFS output into data/orfs/Serratia/GCA_000418855.1_S_marcescensMC6000-1.0_orfs.fa./data/genomes/GCA_000420465.1_ASM42046v1_genomic.gff
+GCA_000420465.1_ASM42046v1
+Desulfovibrio
+3637 ORFS output into data/orfs/Desulfovibrio/GCA_000420465.1_ASM42046v1_orfs.fa./data/genomes/GCA_000420885.1_ASM42088v1_genomic.gff
+GCA_000420885.1_ASM42088v1
+Dorea
+3471 ORFS output into data/orfs/Dorea/GCA_000420885.1_ASM42088v1_orfs.fa./data/genomes/GCA_000421005.1_ASM42100v1_genomic.gff
+GCA_000421005.1_ASM42100v1
+Clostridiales
+2624 ORFS output into data/orfs/Clostridiales/GCA_000421005.1_ASM42100v1_orfs.fa./data/genomes/GCA_000421025.1_ASM42102v1_genomic.gff
+GCA_000421025.1_ASM42102v1
+Lachnobacterium
+2273 ORFS output into data/orfs/Lachnobacterium/GCA_000421025.1_ASM42102v1_orfs.fa./data/genomes/GCA_000421205.1_ASM42120v1_genomic.gff
+GCA_000421205.1_ASM42120v1
+Prevotella
+2434 ORFS output into data/orfs/Prevotella/GCA_000421205.1_ASM42120v1_orfs.fa./data/genomes/GCA_000421365.1_ASM42136v1_genomic.gff
+GCA_000421365.1_ASM42136v1
+Bifidobacterium
+1681 ORFS output into data/orfs/Bifidobacterium/GCA_000421365.1_ASM42136v1_orfs.fa./data/genomes/GCA_000422625.1_ASM42262v1_genomic.gff
+GCA_000422625.1_ASM42262v1
+Enterorhabdus
+2536 ORFS output into data/orfs/Enterorhabdus/GCA_000422625.1_ASM42262v1_orfs.fa./data/genomes/GCA_000424065.1_ASM42406v1_genomic.gff
+GCA_000424065.1_ASM42406v1
+Selenomonas
+3096 ORFS output into data/orfs/Selenomonas/GCA_000424065.1_ASM42406v1_orfs.fa./data/genomes/GCA_000424225.1_ASM42422v1_genomic.gff
+GCA_000424225.1_ASM42422v1
+Bifidobacterium
+1813 ORFS output into data/orfs/Bifidobacterium/GCA_000424225.1_ASM42422v1_orfs.fa./data/genomes/GCA_000424345.1_ASM42434v1_genomic.gff
+GCA_000424345.1_ASM42434v1
+Dorea
+3451 ORFS output into data/orfs/Dorea/GCA_000424345.1_ASM42434v1_orfs.fa./data/genomes/GCA_000425045.1_ASM42504v1_genomic.gff
+GCA_000425045.1_ASM42504v1
+Acidaminococcus
+2184 ORFS output into data/orfs/Acidaminococcus/GCA_000425045.1_ASM42504v1_orfs.fa./data/genomes/GCA_000428205.1_ASM42820v1_genomic.gff
+GCA_000428205.1_ASM42820v1
+Proteobacteria
+4568 ORFS output into data/orfs/Proteobacteria/GCA_000428205.1_ASM42820v1_orfs.fa./data/genomes/GCA_000428225.1_ASM42822v1_genomic.gff
+GCA_000428225.1_ASM42822v1
+Proteobacteria
+1773 ORFS output into data/orfs/Proteobacteria/GCA_000428225.1_ASM42822v1_orfs.fa./data/genomes/GCA_000428445.1_ASM42844v1_genomic.gff
+GCA_000428445.1_ASM42844v1
+Proteobacteria
+717 ORFS output into data/orfs/Proteobacteria/GCA_000428445.1_ASM42844v1_orfs.fa./data/genomes/GCA_000438945.1_ASM43894v1_genomic.gff
+GCA_000438945.1_ASM43894v1
+Proteobacteria
+5787 ORFS output into data/orfs/Proteobacteria/GCA_000438945.1_ASM43894v1_orfs.fa./data/genomes/GCA_000439105.1_ASM43910v1_genomic.gff
+GCA_000439105.1_ASM43910v1
+Clostridium
+3910 ORFS output into data/orfs/Clostridium/GCA_000439105.1_ASM43910v1_orfs.fa./data/genomes/GCA_000440395.1_version1_genomic.gff
+GCA_000440395.1_version1
+Streptococcus
+1947 ORFS output into data/orfs/Streptococcus/GCA_000440395.1_version1_orfs.fa./data/genomes/GCA_000440695.1_version1_genomic.gff
+GCA_000440695.1_version1
+Streptococcus
+2309 ORFS output into data/orfs/Streptococcus/GCA_000440695.1_version1_orfs.fa./data/genomes/GCA_000440955.1_version1_genomic.gff
+GCA_000440955.1_version1
+Streptococcus
+2190 ORFS output into data/orfs/Streptococcus/GCA_000440955.1_version1_orfs.fa./data/genomes/GCA_000441095.1_version1_genomic.gff
+GCA_000441095.1_version1
+Streptococcus
+2436 ORFS output into data/orfs/Streptococcus/GCA_000441095.1_version1_orfs.fa./data/genomes/GCA_000441475.1_version1_genomic.gff
+GCA_000441475.1_version1
+Streptococcus
+2300 ORFS output into data/orfs/Streptococcus/GCA_000441475.1_version1_orfs.fa./data/genomes/GCA_000455285.1_Sm_AP9_genomic.gff
+GCA_000455285.1_Sm_AP9
+Erysipelotrichaceae
+3620 ORFS output into data/orfs/Erysipelotrichaceae/GCA_000455285.1_Sm_AP9_orfs.fa./data/genomes/GCA_000455545.1_B3-1811_genomic.gff
+GCA_000455545.1_B3-1811
+Pseudomonas
+6312 ORFS output into data/orfs/Pseudomonas/GCA_000455545.1_B3-1811_orfs.fa./data/genomes/GCA_000455865.1_de_novo_genomic.gff
+GCA_000455865.1_de_novo
+Fusobacterium
+2166 ORFS output into data/orfs/Fusobacterium/GCA_000455865.1_de_novo_orfs.fa./data/genomes/GCA_000455885.1_de_novo_genomic.gff
+GCA_000455885.1_de_novo
+Fusobacterium
+2034 ORFS output into data/orfs/Fusobacterium/GCA_000455885.1_de_novo_orfs.fa./data/genomes/GCA_000455905.1_de_novo_genomic.gff
+GCA_000455905.1_de_novo
+Fusobacterium
+1957 ORFS output into data/orfs/Fusobacterium/GCA_000455905.1_de_novo_orfs.fa./data/genomes/GCA_000455925.1_de_novo_genomic.gff
+GCA_000455925.1_de_novo
+Fusobacterium
+2031 ORFS output into data/orfs/Fusobacterium/GCA_000455925.1_de_novo_orfs.fa./data/genomes/GCA_000455945.1_de_novo_genomic.gff
+GCA_000455945.1_de_novo
+Fusobacterium
+2097 ORFS output into data/orfs/Fusobacterium/GCA_000455945.1_de_novo_orfs.fa./data/genomes/GCA_000455965.1_de_novo_genomic.gff
+GCA_000455965.1_de_novo
+Fusobacterium
+1909 ORFS output into data/orfs/Fusobacterium/GCA_000455965.1_de_novo_orfs.fa./data/genomes/GCA_000463315.1_B_cell_WH2_1.0_genomic.gff
+GCA_000463315.1_B_cell_WH2_1.0
+Bacteroides
+4252 ORFS output into data/orfs/Bacteroides/GCA_000463315.1_B_cell_WH2_1.0_orfs.fa./data/genomes/GCA_000463815.1_ASM46381v1_genomic.gff
+GCA_000463815.1_ASM46381v1
+Burkholderiales
+61 ORFS output into data/orfs/Burkholderiales/GCA_000463815.1_ASM46381v1_orfs.fa./data/genomes/GCA_000463955.2_ASM46395v2_genomic.gff
+GCA_000463955.2_ASM46395v2
+Sphingomonas
+332 ORFS output into data/orfs/Sphingomonas/GCA_000463955.2_ASM46395v2_orfs.fa./data/genomes/GCA_000464075.2_ASM46407v2_genomic.gff
+GCA_000464075.2_ASM46407v2
+Burkholderiales
+413 ORFS output into data/orfs/Burkholderiales/GCA_000464075.2_ASM46407v2_orfs.fa./data/genomes/GCA_000464135.2_ASM46413v2_genomic.gff
+GCA_000464135.2_ASM46413v2
+Burkholderiales
+454 ORFS output into data/orfs/Burkholderiales/GCA_000464135.2_ASM46413v2_orfs.fa./data/genomes/GCA_000467205.1_Shigella_sonnei_strain_1DT-1_genomic.gff
+GCA_000467205.1_Shigella_sonnei_strain_1DT-1
+Shigella
+5065 ORFS output into data/orfs/Shigella/GCA_000467205.1_Shigella_sonnei_strain_1DT-1_orfs.fa./data/genomes/GCA_000468355.1_CGSSpICE44_genomic.gff
+GCA_000468355.1_CGSSpICE44
+Streptococcus
+1510 ORFS output into data/orfs/Streptococcus/GCA_000468355.1_CGSSpICE44_orfs.fa./data/genomes/GCA_000468395.1_CGSSp1417_genomic.gff
+GCA_000468395.1_CGSSp1417
+Streptococcus
+2199 ORFS output into data/orfs/Streptococcus/GCA_000468395.1_CGSSp1417_orfs.fa./data/genomes/GCA_000469035.1_sf7882_v1_genomic.gff
+GCA_000469035.1_sf7882_v1
+Serratia
+5324 ORFS output into data/orfs/Serratia/GCA_000469035.1_sf7882_v1_orfs.fa./data/genomes/GCA_000471765.1_ASM47176v1_genomic.gff
+GCA_000471765.1_ASM47176v1
+Oscillospiraceae
+2836 ORFS output into data/orfs/Oscillospiraceae/GCA_000471765.1_ASM47176v1_orfs.fa./data/genomes/GCA_000471785.1_ASM47178v1_genomic.gff
+GCA_000471785.1_ASM47178v1
+Clostridium
+4548 ORFS output into data/orfs/Clostridium/GCA_000471785.1_ASM47178v1_orfs.fa./data/genomes/GCA_000472225.1_E_CS88_i__genomic.gff
+GCA_000472225.1_E_CS88_i_
+Chlamydia
+946 ORFS output into data/orfs/Chlamydia/GCA_000472225.1_E_CS88_i__orfs.fa./data/genomes/GCA_000472445.1_ASM47244v1_genomic.gff
+GCA_000472445.1_ASM47244v1
+Burkholderia
+6081 ORFS output into data/orfs/Burkholderia/GCA_000472445.1_ASM47244v1_orfs.fa./data/genomes/GCA_000472545.1_ASM47254v1_genomic.gff
+GCA_000472545.1_ASM47254v1
+Burkholderia
+6862 ORFS output into data/orfs/Burkholderia/GCA_000472545.1_ASM47254v1_orfs.fa./data/genomes/GCA_000476315.1_UTAD54_1_genomic.gff
+GCA_000476315.1_UTAD54_1
+Serratia
+5234 ORFS output into data/orfs/Serratia/GCA_000476315.1_UTAD54_1_orfs.fa./data/genomes/GCA_000478545.1_ASM47854v1_genomic.gff
+GCA_000478545.1_ASM47854v1
+Serratia
+5160 ORFS output into data/orfs/Serratia/GCA_000478545.1_ASM47854v1_orfs.fa./data/genomes/GCA_000483205.1_ASM48320v1_genomic.gff
+GCA_000483205.1_ASM48320v1
+Burkholderia
+244 ORFS output into data/orfs/Burkholderia/GCA_000483205.1_ASM48320v1_orfs.fa./data/genomes/GCA_000483285.1_ASM48328v1_genomic.gff
+GCA_000483285.1_ASM48328v1
+Proteobacteria
+1568 ORFS output into data/orfs/Proteobacteria/GCA_000483285.1_ASM48328v1_orfs.fa./data/genomes/GCA_000484795.1_ASM48479v1_genomic.gff
+GCA_000484795.1_ASM48479v1
+Proteobacteria
+922 ORFS output into data/orfs/Proteobacteria/GCA_000484795.1_ASM48479v1_orfs.fa./data/genomes/GCA_000485275.1_ASM48527v1_genomic.gff
+GCA_000485275.1_ASM48527v1
+Proteobacteria
+851 ORFS output into data/orfs/Proteobacteria/GCA_000485275.1_ASM48527v1_orfs.fa./data/genomes/GCA_000485515.1_ASM48551v1_genomic.gff
+GCA_000485515.1_ASM48551v1
+Burkholderiales
+654 ORFS output into data/orfs/Burkholderiales/GCA_000485515.1_ASM48551v1_orfs.fa./data/genomes/GCA_000492135.1_ASM49213v1_genomic.gff
+GCA_000492135.1_ASM49213v1
+Proteobacteria
+364 ORFS output into data/orfs/Proteobacteria/GCA_000492135.1_ASM49213v1_orfs.fa./data/genomes/GCA_000493855.1_ASM49385v1_genomic.gff
+GCA_000493855.1_ASM49385v1
+Burkholderia
+458 ORFS output into data/orfs/Burkholderia/GCA_000493855.1_ASM49385v1_orfs.fa./data/genomes/GCA_000494545.1_ASM49454v1_genomic.gff
+GCA_000494545.1_ASM49454v1
+Firmicutes
+279 ORFS output into data/orfs/Firmicutes/GCA_000494545.1_ASM49454v1_orfs.fa./data/genomes/GCA_000494645.1_ASM49464v1_genomic.gff
+GCA_000494645.1_ASM49464v1
+Firmicutes
+573 ORFS output into data/orfs/Firmicutes/GCA_000494645.1_ASM49464v1_orfs.fa./data/genomes/GCA_000497775.2_ClosBeijAAU1_genomic.gff
+GCA_000497775.2_ClosBeijAAU1
+Clostridium
+5111 ORFS output into data/orfs/Clostridium/GCA_000497775.2_ClosBeijAAU1_orfs.fa./data/genomes/GCA_000497795.1_50cell_lacAci39final_genomic.gff
+GCA_000497795.1_50cell_lacAci39final
+Lactobacillus
+1892 ORFS output into data/orfs/Lactobacillus/GCA_000497795.1_50cell_lacAci39final_orfs.fa./data/genomes/GCA_000497835.1_L18_assembly_1.0_genomic.gff
+GCA_000497835.1_L18_assembly_1.0
+gamma
+6114 ORFS output into data/orfs/gamma/GCA_000497835.1_L18_assembly_1.0_orfs.fa./data/genomes/GCA_000499185.1_Bifidobacterium_strain_A11_genomic.gff
+GCA_000499185.1_Bifidobacterium_strain_A11
+Bifidobacterium
+1805 ORFS output into data/orfs/Bifidobacterium/GCA_000499185.1_Bifidobacterium_strain_A11_orfs.fa./data/genomes/GCA_000499285.1_bifidobacterium_strain7101_genomic.gff
+GCA_000499285.1_bifidobacterium_strain7101
+Bifidobacterium
+1682 ORFS output into data/orfs/Bifidobacterium/GCA_000499285.1_bifidobacterium_strain7101_orfs.fa./data/genomes/GCA_000499525.1_Clostridium_dakarense_01_genomic.gff
+GCA_000499525.1_Clostridium_dakarense_01
+Clostridium
+3738 ORFS output into data/orfs/Clostridium/GCA_000499525.1_Clostridium_dakarense_01_orfs.fa./data/genomes/GCA_000500565.1_DGCC7710v1_genomic.gff
+GCA_000500565.1_DGCC7710v1
+Streptococcus
+1959 ORFS output into data/orfs/Streptococcus/GCA_000500565.1_DGCC7710v1_orfs.fa./data/genomes/GCA_000508865.1_ASM50886v1_genomic.gff
+GCA_000508865.1_ASM50886v1
+Clostridiales
+2547 ORFS output into data/orfs/Clostridiales/GCA_000508865.1_ASM50886v1_orfs.fa./data/genomes/GCA_000508925.1_ASM50892v1_genomic.gff
+GCA_000508925.1_ASM50892v1
+Clostridiales
+4445 ORFS output into data/orfs/Clostridiales/GCA_000508925.1_ASM50892v1_orfs.fa./data/genomes/GCA_000508945.1_ASM50894v1_genomic.gff
+GCA_000508945.1_ASM50894v1
+Clostridiales
+4131 ORFS output into data/orfs/Clostridiales/GCA_000508945.1_ASM50894v1_orfs.fa./data/genomes/GCA_000509025.1_ASM50902v1_genomic.gff
+GCA_000509025.1_ASM50902v1
+Clostridiales
+2425 ORFS output into data/orfs/Clostridiales/GCA_000509025.1_ASM50902v1_orfs.fa./data/genomes/GCA_000509045.1_ASM50904v1_genomic.gff
+GCA_000509045.1_ASM50904v1
+Clostridiales
+5940 ORFS output into data/orfs/Clostridiales/GCA_000509045.1_ASM50904v1_orfs.fa./data/genomes/GCA_000509085.1_ASM50908v1_genomic.gff
+GCA_000509085.1_ASM50908v1
+Clostridiales
+3137 ORFS output into data/orfs/Clostridiales/GCA_000509085.1_ASM50908v1_orfs.fa./data/genomes/GCA_000509185.1_ASM50918v1_genomic.gff
+GCA_000509185.1_ASM50918v1
+Clostridiales
+6421 ORFS output into data/orfs/Clostridiales/GCA_000509185.1_ASM50918v1_orfs.fa./data/genomes/GCA_000512415.1_JJC_1.0_genomic.gff
+GCA_000512415.1_JJC_1.0
+Clostridium
+2463 ORFS output into data/orfs/Clostridium/GCA_000512415.1_JJC_1.0_orfs.fa./data/genomes/GCA_000515195.1_ASM51519v1_genomic.gff
+GCA_000515195.1_ASM51519v1
+Burkholderia
+6246 ORFS output into data/orfs/Burkholderia/GCA_000515195.1_ASM51519v1_orfs.fa./data/genomes/GCA_000518685.1_ASM51868v1_genomic.gff
+GCA_000518685.1_ASM51868v1
+Eubacterium
+2201 ORFS output into data/orfs/Eubacterium/GCA_000518685.1_ASM51868v1_orfs.fa./data/genomes/GCA_000519985.1_ASM51998v1_genomic.gff
+GCA_000519985.1_ASM51998v1
+Clostridium
+4697 ORFS output into data/orfs/Clostridium/GCA_000519985.1_ASM51998v1_orfs.fa./data/genomes/GCA_000526735.1_ASM52673v1_genomic.gff
+GCA_000526735.1_ASM52673v1
+Ruminococcus
+3923 ORFS output into data/orfs/Ruminococcus/GCA_000526735.1_ASM52673v1_orfs.fa./data/genomes/GCA_000526775.1_ASM52677v1_genomic.gff
+GCA_000526775.1_ASM52677v1
+Ruminococcus
+3863 ORFS output into data/orfs/Ruminococcus/GCA_000526775.1_ASM52677v1_orfs.fa./data/genomes/GCA_000565505.1_ASM56550v1_genomic.gff
+GCA_000565505.1_ASM56550v1
+Shigella
+4305 ORFS output into data/orfs/Shigella/GCA_000565505.1_ASM56550v1_orfs.fa./data/genomes/GCA_000566525.1_ASM56652v1_genomic.gff
+GCA_000566525.1_ASM56652v1
+Shigella
+4386 ORFS output into data/orfs/Shigella/GCA_000566525.1_ASM56652v1_orfs.fa./data/genomes/GCA_000566625.1_ASM56662v1_genomic.gff
+GCA_000566625.1_ASM56662v1
+Shigella
+4055 ORFS output into data/orfs/Shigella/GCA_000566625.1_ASM56662v1_orfs.fa./data/genomes/GCA_000572265.1_PA01_BK1_genomic.gff
+GCA_000572265.1_PA01_BK1
+Pseudomonas
+6612 ORFS output into data/orfs/Pseudomonas/GCA_000572265.1_PA01_BK1_orfs.fa./data/genomes/GCA_000577815.1_JCC_genomic.gff
+GCA_000577815.1_JCC
+Clostridium
+3462 ORFS output into data/orfs/Clostridium/GCA_000577815.1_JCC_orfs.fa./data/genomes/GCA_000611935.1_Mycobacterium_kansasii_Z61_genomic.gff
+GCA_000611935.1_Mycobacterium_kansasii_Z61
+Mycobacterium
+4674 ORFS output into data/orfs/Mycobacterium/GCA_000611935.1_Mycobacterium_kansasii_Z61_orfs.fa./data/genomes/GCA_000613385.1_ASM61338v1_genomic.gff
+GCA_000613385.1_ASM61338v1
+Bacteroides
+3543 ORFS output into data/orfs/Bacteroides/GCA_000613385.1_ASM61338v1_orfs.fa./data/genomes/GCA_000613465.1_ASM61346v1_genomic.gff
+GCA_000613465.1_ASM61346v1
+Bacteroides
+3802 ORFS output into data/orfs/Bacteroides/GCA_000613465.1_ASM61346v1_orfs.fa./data/genomes/GCA_000613545.1_ASM61354v1_genomic.gff
+GCA_000613545.1_ASM61354v1
+Bacteroides
+3256 ORFS output into data/orfs/Bacteroides/GCA_000613545.1_ASM61354v1_orfs.fa./data/genomes/GCA_000613685.1_ASM61368v1_genomic.gff
+GCA_000613685.1_ASM61368v1
+Bacteroides
+3609 ORFS output into data/orfs/Bacteroides/GCA_000613685.1_ASM61368v1_orfs.fa./data/genomes/GCA_000614125.1_ASM61412v1_genomic.gff
+GCA_000614125.1_ASM61412v1
+Bacteroides
+3984 ORFS output into data/orfs/Bacteroides/GCA_000614125.1_ASM61412v1_orfs.fa./data/genomes/GCA_000614145.1_ASM61414v1_genomic.gff
+GCA_000614145.1_ASM61414v1
+Bacteroides
+3506 ORFS output into data/orfs/Bacteroides/GCA_000614145.1_ASM61414v1_orfs.fa./data/genomes/GCA_000614165.1_ASM61416v1_genomic.gff
+GCA_000614165.1_ASM61416v1
+Bacteroides
+4996 ORFS output into data/orfs/Bacteroides/GCA_000614165.1_ASM61416v1_orfs.fa./data/genomes/GCA_000614185.1_ASM61418v1_genomic.gff
+GCA_000614185.1_ASM61418v1
+Bacteroides
+3820 ORFS output into data/orfs/Bacteroides/GCA_000614185.1_ASM61418v1_orfs.fa./data/genomes/GCA_000615165.1_ASM61516v1_genomic.gff
+GCA_000615165.1_ASM61516v1
+Lactobacillus
+1506 ORFS output into data/orfs/Lactobacillus/GCA_000615165.1_ASM61516v1_orfs.fa./data/genomes/GCA_000615615.1_ASM61561v1_genomic.gff
+GCA_000615615.1_ASM61561v1
+Porphyromonas
+5637 ORFS output into data/orfs/Porphyromonas/GCA_000615615.1_ASM61561v1_orfs.fa./data/genomes/GCA_000615645.1_ASM61564v1_genomic.gff
+GCA_000615645.1_ASM61564v1
+Bacteroides
+4132 ORFS output into data/orfs/Bacteroides/GCA_000615645.1_ASM61564v1_orfs.fa./data/genomes/GCA_000615885.1_ASM61588v1_genomic.gff
+GCA_000615885.1_ASM61588v1
+Lactobacillus
+1482 ORFS output into data/orfs/Lactobacillus/GCA_000615885.1_ASM61588v1_orfs.fa./data/genomes/GCA_000621285.1_ASM62128v1_genomic.gff
+GCA_000621285.1_ASM62128v1
+Ruminococcus
+4004 ORFS output into data/orfs/Ruminococcus/GCA_000621285.1_ASM62128v1_orfs.fa./data/genomes/GCA_000621505.1_ASM62150v1_genomic.gff
+GCA_000621505.1_ASM62150v1
+Clostridium
+5537 ORFS output into data/orfs/Clostridium/GCA_000621505.1_ASM62150v1_orfs.fa./data/genomes/GCA_000621745.1_ASM62174v1_genomic.gff
+GCA_000621745.1_ASM62174v1
+Clostridium
+5595 ORFS output into data/orfs/Clostridium/GCA_000621745.1_ASM62174v1_orfs.fa./data/genomes/GCA_000621765.1_ASM62176v1_genomic.gff
+GCA_000621765.1_ASM62176v1
+Ruminococcaceae
+2819 ORFS output into data/orfs/Ruminococcaceae/GCA_000621765.1_ASM62176v1_orfs.fa./data/genomes/GCA_000621885.1_ASM62188v1_genomic.gff
+GCA_000621885.1_ASM62188v1
+Megasphaera
+2389 ORFS output into data/orfs/Megasphaera/GCA_000621885.1_ASM62188v1_orfs.fa./data/genomes/GCA_000622065.1_ASM62206v1_genomic.gff
+GCA_000622065.1_ASM62206v1
+Lachnobacterium
+2416 ORFS output into data/orfs/Lachnobacterium/GCA_000622065.1_ASM62206v1_orfs.fa./data/genomes/GCA_000633315.1_de_novo_genomic.gff
+GCA_000633315.1_de_novo
+Serratia
+5745 ORFS output into data/orfs/Serratia/GCA_000633315.1_de_novo_orfs.fa./data/genomes/GCA_000633355.1_de_novo_genomic.gff
+GCA_000633355.1_de_novo
+Serratia
+5762 ORFS output into data/orfs/Serratia/GCA_000633355.1_de_novo_orfs.fa./data/genomes/GCA_000648875.1_Draft_SP7-LAU_Genome_genomic.gff
+GCA_000648875.1_Draft_SP7-LAU_Genome
+Streptococcus
+2025 ORFS output into data/orfs/Streptococcus/GCA_000648875.1_Draft_SP7-LAU_Genome_orfs.fa./data/genomes/GCA_000685865.1_ASM68586v1_genomic.gff
+GCA_000685865.1_ASM68586v1
+Exiguobacterium
+3351 ORFS output into data/orfs/Exiguobacterium/GCA_000685865.1_ASM68586v1_orfs.fa./data/genomes/GCA_000686125.1_ASM68612v1_genomic.gff
+GCA_000686125.1_ASM68612v1
+Ruminococcus
+2964 ORFS output into data/orfs/Ruminococcus/GCA_000686125.1_ASM68612v1_orfs.fa./data/genomes/GCA_000686145.1_ASM68614v1_genomic.gff
+GCA_000686145.1_ASM68614v1
+Peptostreptococcaceae
+3504 ORFS output into data/orfs/Peptostreptococcaceae/GCA_000686145.1_ASM68614v1_orfs.fa./data/genomes/GCA_000686665.1_ASM68666v1_genomic.gff
+GCA_000686665.1_ASM68666v1
+Clostridium
+2823 ORFS output into data/orfs/Clostridium/GCA_000686665.1_ASM68666v1_orfs.fa./data/genomes/GCA_000687515.1_ASM68751v1_genomic.gff
+GCA_000687515.1_ASM68751v1
+Lachnobacterium
+2516 ORFS output into data/orfs/Lachnobacterium/GCA_000687515.1_ASM68751v1_orfs.fa./data/genomes/GCA_000687995.1_ASM68799v1_genomic.gff
+GCA_000687995.1_ASM68799v1
+Selenomonas
+2634 ORFS output into data/orfs/Selenomonas/GCA_000687995.1_ASM68799v1_orfs.fa./data/genomes/GCA_000688035.1_ASM68803v1_genomic.gff
+GCA_000688035.1_ASM68803v1
+Ruminococcaceae
+2846 ORFS output into data/orfs/Ruminococcaceae/GCA_000688035.1_ASM68803v1_orfs.fa./data/genomes/GCA_000688695.1_LonsB102_genomic.gff
+GCA_000688695.1_LonsB102
+Lonsdalea
+3351 ORFS output into data/orfs/Lonsdalea/GCA_000688695.1_LonsB102_orfs.fa./data/genomes/GCA_000701545.1_ASM70154v1_genomic.gff
+GCA_000701545.1_ASM70154v1
+Lachnospiraceae
+2380 ORFS output into data/orfs/Lachnospiraceae/GCA_000701545.1_ASM70154v1_orfs.fa./data/genomes/GCA_000702545.1_ASM70254v1_genomic.gff
+GCA_000702545.1_ASM70254v1
+Selenomonas
+3983 ORFS output into data/orfs/Selenomonas/GCA_000702545.1_ASM70254v1_orfs.fa./data/genomes/GCA_000702865.1_ASM70286v1_genomic.gff
+GCA_000702865.1_ASM70286v1
+Bifidobacterium
+1479 ORFS output into data/orfs/Bifidobacterium/GCA_000702865.1_ASM70286v1_orfs.fa./data/genomes/GCA_000702945.1_ASM70294v1_genomic.gff
+GCA_000702945.1_ASM70294v1
+Clostridium
+5445 ORFS output into data/orfs/Clostridium/GCA_000702945.1_ASM70294v1_orfs.fa./data/genomes/GCA_000702985.1_ASM70298v1_genomic.gff
+GCA_000702985.1_ASM70298v1
+Lachnoclostridium
+4122 ORFS output into data/orfs/Lachnoclostridium/GCA_000702985.1_ASM70298v1_orfs.fa./data/genomes/GCA_000703105.1_ASM70310v1_genomic.gff
+GCA_000703105.1_ASM70310v1
+Lachnoclostridium
+4107 ORFS output into data/orfs/Lachnoclostridium/GCA_000703105.1_ASM70310v1_orfs.fa./data/genomes/GCA_000711295.1_ASM71129v1_genomic.gff
+GCA_000711295.1_ASM71129v1
+Desulfovibrio
+3359 ORFS output into data/orfs/Desulfovibrio/GCA_000711295.1_ASM71129v1_orfs.fa./data/genomes/GCA_000712055.1_ASM71205v1_genomic.gff
+GCA_000712055.1_ASM71205v1
+Ruminococcus
+3882 ORFS output into data/orfs/Ruminococcus/GCA_000712055.1_ASM71205v1_orfs.fa./data/genomes/GCA_000723745.1_PRJEB6027_Urmite_genomic.gff
+GCA_000723745.1_PRJEB6027_Urmite
+Akkermansia
+2559 ORFS output into data/orfs/Akkermansia/GCA_000723745.1_PRJEB6027_Urmite_orfs.fa./data/genomes/GCA_000733135.1_ASM73313v1_genomic.gff
+GCA_000733135.1_ASM73313v1
+Sphingomonas
+3541 ORFS output into data/orfs/Sphingomonas/GCA_000733135.1_ASM73313v1_orfs.fa./data/genomes/GCA_000733755.1_ASM73375v1_genomic.gff
+GCA_000733755.1_ASM73375v1
+Lachnoclostridium
+4029 ORFS output into data/orfs/Lachnoclostridium/GCA_000733755.1_ASM73375v1_orfs.fa./data/genomes/GCA_000745115.1_ASM74511v1_genomic.gff
+GCA_000745115.1_ASM74511v1
+Carnobacterium
+2427 ORFS output into data/orfs/Carnobacterium/GCA_000745115.1_ASM74511v1_orfs.fa./data/genomes/GCA_000745615.1_ASM74561v1_genomic.gff
+GCA_000745615.1_ASM74561v1
+Rahnella
+5021 ORFS output into data/orfs/Rahnella/GCA_000745615.1_ASM74561v1_orfs.fa./data/genomes/GCA_000745665.1_ASM74566v1_genomic.gff
+GCA_000745665.1_ASM74566v1
+Burkholderia
+6374 ORFS output into data/orfs/Burkholderia/GCA_000745665.1_ASM74566v1_orfs.fa./data/genomes/GCA_000746155.1_ASM74615v1_genomic.gff
+GCA_000746155.1_ASM74615v1
+Prevotella
+2660 ORFS output into data/orfs/Prevotella/GCA_000746155.1_ASM74615v1_orfs.fa./data/genomes/GCA_000752095.1_Guyana_massiliensis_genomic.gff
+GCA_000752095.1_Guyana_massiliensis
+bacterium
+2645 ORFS output into data/orfs/bacterium/GCA_000752095.1_Guyana_massiliensis_orfs.fa./data/genomes/GCA_000765135.1_ASM76513v1_genomic.gff
+GCA_000765135.1_ASM76513v1
+Intestinimonas
+3265 ORFS output into data/orfs/Intestinimonas/GCA_000765135.1_ASM76513v1_orfs.fa./data/genomes/GCA_000765235.1_ASM76523v1_genomic.gff
+GCA_000765235.1_ASM76523v1
+Oscillibacter
+2528 ORFS output into data/orfs/Oscillibacter/GCA_000765235.1_ASM76523v1_orfs.fa./data/genomes/GCA_000765245.1_ASM76524v1_genomic.gff
+GCA_000765245.1_ASM76524v1
+Blautia
+5701 ORFS output into data/orfs/Blautia/GCA_000765245.1_ASM76524v1_orfs.fa./data/genomes/GCA_000770925.1_DSM-6489_genomic.gff
+GCA_000770925.1_DSM-6489
+Bifidobacterium
+1913 ORFS output into data/orfs/Bifidobacterium/GCA_000770925.1_DSM-6489_orfs.fa./data/genomes/GCA_000770945.1_DSM-6492_genomic.gff
+GCA_000770945.1_DSM-6492
+Bifidobacterium
+1929 ORFS output into data/orfs/Bifidobacterium/GCA_000770945.1_DSM-6492_orfs.fa./data/genomes/GCA_000771065.1_DSM-17777_genomic.gff
+GCA_000771065.1_DSM-17777
+Bifidobacterium
+1880 ORFS output into data/orfs/Bifidobacterium/GCA_000771065.1_DSM-17777_orfs.fa./data/genomes/GCA_000771145.1_DSM-20092_genomic.gff
+GCA_000771145.1_DSM-20092
+Bifidobacterium
+1613 ORFS output into data/orfs/Bifidobacterium/GCA_000771145.1_DSM-20092_orfs.fa./data/genomes/GCA_000771165.1_DSM-20093_genomic.gff
+GCA_000771165.1_DSM-20093
+Bifidobacterium
+1625 ORFS output into data/orfs/Bifidobacterium/GCA_000771165.1_DSM-20093_orfs.fa./data/genomes/GCA_000771225.1_DSM-20099_genomic.gff
+GCA_000771225.1_DSM-20099
+Bifidobacterium
+1630 ORFS output into data/orfs/Bifidobacterium/GCA_000771225.1_DSM-20099_orfs.fa./data/genomes/GCA_000771285.1_DSM-20211_genomic.gff
+GCA_000771285.1_DSM-20211
+Bifidobacterium
+2071 ORFS output into data/orfs/Bifidobacterium/GCA_000771285.1_DSM-20211_orfs.fa./data/genomes/GCA_000771405.1_DSM-20433_genomic.gff
+GCA_000771405.1_DSM-20433
+Bifidobacterium
+1718 ORFS output into data/orfs/Bifidobacterium/GCA_000771405.1_DSM-20433_orfs.fa./data/genomes/GCA_000771425.1_DSM-20434_genomic.gff
+GCA_000771425.1_DSM-20434
+Bifidobacterium
+1740 ORFS output into data/orfs/Bifidobacterium/GCA_000771425.1_DSM-20434_orfs.fa./data/genomes/GCA_000771625.1_DSM-23967_genomic.gff
+GCA_000771625.1_DSM-23967
+Bifidobacterium
+2342 ORFS output into data/orfs/Bifidobacterium/GCA_000771625.1_DSM-23967_orfs.fa./data/genomes/GCA_000771645.1_DSM-23969_genomic.gff
+GCA_000771645.1_DSM-23969
+Bifidobacterium
+2683 ORFS output into data/orfs/Bifidobacterium/GCA_000771645.1_DSM-23969_orfs.fa./data/genomes/GCA_000771705.1_JCM-15918_genomic.gff
+GCA_000771705.1_JCM-15918
+Bifidobacterium
+1963 ORFS output into data/orfs/Bifidobacterium/GCA_000771705.1_JCM-15918_orfs.fa./data/genomes/GCA_000786215.1_ASM78621v1_genomic.gff
+GCA_000786215.1_ASM78621v1
+Sphingomonas
+3724 ORFS output into data/orfs/Sphingomonas/GCA_000786215.1_ASM78621v1_orfs.fa./data/genomes/GCA_000789175.1_ASM78917v1_genomic.gff
+GCA_000789175.1_ASM78917v1
+Lactobacillus
+2018 ORFS output into data/orfs/Lactobacillus/GCA_000789175.1_ASM78917v1_orfs.fa./data/genomes/GCA_000798815.1_ZOR0009.1_genomic.gff
+GCA_000798815.1_ZOR0009.1
+Alistipes
+3815 ORFS output into data/orfs/Alistipes/GCA_000798815.1_ZOR0009.1_orfs.fa./data/genomes/GCA_000798825.1_ZWU0011.1_genomic.gff
+GCA_000798825.1_ZWU0011.1
+Carnobacterium
+2015 ORFS output into data/orfs/Carnobacterium/GCA_000798825.1_ZWU0011.1_orfs.fa./data/genomes/GCA_000800945.1_ZOR0011.1_genomic.gff
+GCA_000800945.1_ZOR0011.1
+Plesiomonas
+2811 ORFS output into data/orfs/Plesiomonas/GCA_000800945.1_ZOR0011.1_orfs.fa./data/genomes/GCA_000803065.1_ASM80306v1_genomic.gff
+GCA_000803065.1_ASM80306v1
+Sphingomonas
+5504 ORFS output into data/orfs/Sphingomonas/GCA_000803065.1_ASM80306v1_orfs.fa./data/genomes/GCA_000804305.1_ASM80430v1_genomic.gff
+GCA_000804305.1_ASM80430v1
+Acinetobacter
+3060 ORFS output into data/orfs/Acinetobacter/GCA_000804305.1_ASM80430v1_orfs.fa./data/genomes/GCA_000813415.1_ASM81341v1_genomic.gff
+GCA_000813415.1_ASM81341v1
+Plesiomonas
+3568 ORFS output into data/orfs/Plesiomonas/GCA_000813415.1_ASM81341v1_orfs.fa./data/genomes/GCA_000814185.1_ASM81418v1_genomic.gff
+GCA_000814185.1_ASM81418v1
+Lactobacillus
+2917 ORFS output into data/orfs/Lactobacillus/GCA_000814185.1_ASM81418v1_orfs.fa./data/genomes/GCA_000815585.1_ASM81558v1_genomic.gff
+GCA_000815585.1_ASM81558v1
+Shigella
+3411 ORFS output into data/orfs/Shigella/GCA_000815585.1_ASM81558v1_orfs.fa./data/genomes/GCA_000815665.1_ASM81566v1_genomic.gff
+GCA_000815665.1_ASM81566v1
+Shigella
+3250 ORFS output into data/orfs/Shigella/GCA_000815665.1_ASM81566v1_orfs.fa./data/genomes/GCA_000815705.1_ASM81570v1_genomic.gff
+GCA_000815705.1_ASM81570v1
+Shigella
+4655 ORFS output into data/orfs/Shigella/GCA_000815705.1_ASM81570v1_orfs.fa./data/genomes/GCA_000815725.1_ASM81572v1_genomic.gff
+GCA_000815725.1_ASM81572v1
+Shigella
+5208 ORFS output into data/orfs/Shigella/GCA_000815725.1_ASM81572v1_orfs.fa./data/genomes/GCA_000815765.1_ASM81576v1_genomic.gff
+GCA_000815765.1_ASM81576v1
+Shigella
+3975 ORFS output into data/orfs/Shigella/GCA_000815765.1_ASM81576v1_orfs.fa./data/genomes/GCA_000815815.1_ASM81581v1_genomic.gff
+GCA_000815815.1_ASM81581v1
+Shigella
+3349 ORFS output into data/orfs/Shigella/GCA_000815815.1_ASM81581v1_orfs.fa./data/genomes/GCA_000815825.1_ASM81582v1_genomic.gff
+GCA_000815825.1_ASM81582v1
+Shigella
+2995 ORFS output into data/orfs/Shigella/GCA_000815825.1_ASM81582v1_orfs.fa./data/genomes/GCA_000815885.1_ASM81588v1_genomic.gff
+GCA_000815885.1_ASM81588v1
+Shigella
+3493 ORFS output into data/orfs/Shigella/GCA_000815885.1_ASM81588v1_orfs.fa./data/genomes/GCA_000815905.1_ASM81590v1_genomic.gff
+GCA_000815905.1_ASM81590v1
+Shigella
+2855 ORFS output into data/orfs/Shigella/GCA_000815905.1_ASM81590v1_orfs.fa./data/genomes/GCA_000821265.1_Collinsella_massilioamazoniensis_MS5_genomic.gff
+GCA_000821265.1_Collinsella_massilioamazoniensis_MS5
+Collinsella
+1662 ORFS output into data/orfs/Collinsella/GCA_000821265.1_Collinsella_massilioamazoniensis_MS5_orfs.fa./data/genomes/GCA_000821285.2_Alistipes_jeddahmassiliense_str._AL-1_genomic.gff
+GCA_000821285.2_Alistipes_jeddahmassiliense_str._AL-1
+Alistipes
+2532 ORFS output into data/orfs/Alistipes/GCA_000821285.2_Alistipes_jeddahmassiliense_str._AL-1_orfs.fa./data/genomes/GCA_000826925.1_ASM82692v1_genomic.gff
+GCA_000826925.1_ASM82692v1
+Synthetic
+4449 ORFS output into data/orfs/Synthetic/GCA_000826925.1_ASM82692v1_orfs.fa./data/genomes/GCA_000876135.1_ASM87613v1_genomic.gff
+GCA_000876135.1_ASM87613v1
+Anaerostipes
+3697 ORFS output into data/orfs/Anaerostipes/GCA_000876135.1_ASM87613v1_orfs.fa./data/genomes/GCA_000939155.1_2a7B_assembly3_genomic.gff
+GCA_000939155.1_2a7B_assembly3
+Bacteroides
+3756 ORFS output into data/orfs/Bacteroides/GCA_000939155.1_2a7B_assembly3_orfs.fa./data/genomes/GCA_000940235.1_2e7A_assembly_genomic.gff
+GCA_000940235.1_2e7A_assembly
+Bacteroides
+4954 ORFS output into data/orfs/Bacteroides/GCA_000940235.1_2e7A_assembly_orfs.fa./data/genomes/GCA_000940535.1_BPSEU7765_v1_genomic.gff
+GCA_000940535.1_BPSEU7765_v1
+Bifidobacterium
+1875 ORFS output into data/orfs/Bifidobacterium/GCA_000940535.1_BPSEU7765_v1_orfs.fa./data/genomes/GCA_000944395.1_1e8A_assembly_genomic.gff
+GCA_000944395.1_1e8A_assembly
+Bacteroides
+5212 ORFS output into data/orfs/Bacteroides/GCA_000944395.1_1e8A_assembly_orfs.fa./data/genomes/GCA_000947355.1_2b7B_assembly_genomic.gff
+GCA_000947355.1_2b7B_assembly
+Parabacteroides
+4724 ORFS output into data/orfs/Parabacteroides/GCA_000947355.1_2b7B_assembly_orfs.fa./data/genomes/GCA_000951135.1_ASM95113v1_genomic.gff
+GCA_000951135.1_ASM95113v1
+Rouxiella
+4153 ORFS output into data/orfs/Rouxiella/GCA_000951135.1_ASM95113v1_orfs.fa./data/genomes/GCA_000963195.1_Xal-XaFL07_1-G1_genomic.gff
+GCA_000963195.1_Xal-XaFL07_1-G1
+Xanthomonas
+3482 ORFS output into data/orfs/Xanthomonas/GCA_000963195.1_Xal-XaFL07_1-G1_orfs.fa./data/genomes/GCA_000980215.1_ASM98021v1_genomic.gff
+GCA_000980215.1_ASM98021v1
+Carnobacterium
+2143 ORFS output into data/orfs/Carnobacterium/GCA_000980215.1_ASM98021v1_orfs.fa./data/genomes/GCA_000980225.1_ASM98022v1_genomic.gff
+GCA_000980225.1_ASM98022v1
+Alistipes
+1912 ORFS output into data/orfs/Alistipes/GCA_000980225.1_ASM98022v1_orfs.fa./data/genomes/GCA_000980235.1_ASM98023v1_genomic.gff
+GCA_000980235.1_ASM98023v1
+Ruminococcus
+2360 ORFS output into data/orfs/Ruminococcus/GCA_000980235.1_ASM98023v1_orfs.fa./data/genomes/GCA_000980245.1_ASM98024v1_genomic.gff
+GCA_000980245.1_ASM98024v1
+Odoribacter
+3098 ORFS output into data/orfs/Odoribacter/GCA_000980245.1_ASM98024v1_orfs.fa./data/genomes/GCA_000980295.1_ASM98029v1_genomic.gff
+GCA_000980295.1_ASM98029v1
+Odoribacter
+3004 ORFS output into data/orfs/Odoribacter/GCA_000980295.1_ASM98029v1_orfs.fa./data/genomes/GCA_000980315.1_ASM98031v1_genomic.gff
+GCA_000980315.1_ASM98031v1
+Ruminococcus
+1795 ORFS output into data/orfs/Ruminococcus/GCA_000980315.1_ASM98031v1_orfs.fa./data/genomes/GCA_000980325.1_ASM98032v1_genomic.gff
+GCA_000980325.1_ASM98032v1
+Clostridium
+1741 ORFS output into data/orfs/Clostridium/GCA_000980325.1_ASM98032v1_orfs.fa./data/genomes/GCA_000980335.1_ASM98033v1_genomic.gff
+GCA_000980335.1_ASM98033v1
+Burkholderia
+2277 ORFS output into data/orfs/Burkholderia/GCA_000980335.1_ASM98033v1_orfs.fa./data/genomes/GCA_000980375.1_ASM98037v1_genomic.gff
+GCA_000980375.1_ASM98037v1
+Clostridium
+1999 ORFS output into data/orfs/Clostridium/GCA_000980375.1_ASM98037v1_orfs.fa./data/genomes/GCA_000980385.1_ASM98038v1_genomic.gff
+GCA_000980385.1_ASM98038v1
+Ruminococcus
+2103 ORFS output into data/orfs/Ruminococcus/GCA_000980385.1_ASM98038v1_orfs.fa./data/genomes/GCA_000980395.1_ASM98039v1_genomic.gff
+GCA_000980395.1_ASM98039v1
+Carnobacterium
+1730 ORFS output into data/orfs/Carnobacterium/GCA_000980395.1_ASM98039v1_orfs.fa./data/genomes/GCA_000980425.1_ASM98042v1_genomic.gff
+GCA_000980425.1_ASM98042v1
+Lactobacillus
+1781 ORFS output into data/orfs/Lactobacillus/GCA_000980425.1_ASM98042v1_orfs.fa./data/genomes/GCA_000980495.1_ASM98049v1_genomic.gff
+GCA_000980495.1_ASM98049v1
+Acinetobacter
+2121 ORFS output into data/orfs/Acinetobacter/GCA_000980495.1_ASM98049v1_orfs.fa./data/genomes/GCA_000980505.1_ASM98050v1_genomic.gff
+GCA_000980505.1_ASM98050v1
+Lactobacillus
+1855 ORFS output into data/orfs/Lactobacillus/GCA_000980505.1_ASM98050v1_orfs.fa./data/genomes/GCA_000980515.1_ASM98051v1_genomic.gff
+GCA_000980515.1_ASM98051v1
+Akkermansia
+2662 ORFS output into data/orfs/Akkermansia/GCA_000980515.1_ASM98051v1_orfs.fa./data/genomes/GCA_000980585.1_ASM98058v1_genomic.gff
+GCA_000980585.1_ASM98058v1
+Odoribacter
+5565 ORFS output into data/orfs/Odoribacter/GCA_000980585.1_ASM98058v1_orfs.fa./data/genomes/GCA_000980595.1_ASM98059v1_genomic.gff
+GCA_000980595.1_ASM98059v1
+Bacteroides
+4493 ORFS output into data/orfs/Bacteroides/GCA_000980595.1_ASM98059v1_orfs.fa./data/genomes/GCA_000980625.1_ASM98062v1_genomic.gff
+GCA_000980625.1_ASM98062v1
+Roseburia
+4587 ORFS output into data/orfs/Roseburia/GCA_000980625.1_ASM98062v1_orfs.fa./data/genomes/GCA_000980705.1_ASM98070v1_genomic.gff
+GCA_000980705.1_ASM98070v1
+Ruminococcus
+2856 ORFS output into data/orfs/Ruminococcus/GCA_000980705.1_ASM98070v1_orfs.fa./data/genomes/GCA_001006945.1_Lac4228_genomic.gff
+GCA_001006945.1_Lac4228
+Lactobacillus
+1876 ORFS output into data/orfs/Lactobacillus/GCA_001006945.1_Lac4228_orfs.fa./data/genomes/GCA_001039045.1_ASM103904v1_genomic.gff
+GCA_001039045.1_ASM103904v1
+Lactobacillus
+1935 ORFS output into data/orfs/Lactobacillus/GCA_001039045.1_ASM103904v1_orfs.fa./data/genomes/GCA_001040725.1_Lactobacillus_mucosae_genomic.gff
+GCA_001040725.1_Lactobacillus_mucosae
+Lactobacillus
+2252 ORFS output into data/orfs/Lactobacillus/GCA_001040725.1_Lactobacillus_mucosae_orfs.fa./data/genomes/GCA_001049915.1_Drancourtella_massiliensis_genomic.gff
+GCA_001049915.1_Drancourtella_massiliensis
+Ruminococcaceae
+2572 ORFS output into data/orfs/Ruminococcaceae/GCA_001049915.1_Drancourtella_massiliensis_orfs.fa./data/genomes/GCA_001053265.1_ASM105326v1_genomic.gff
+GCA_001053265.1_ASM105326v1
+Carnobacterium
+1834 ORFS output into data/orfs/Carnobacterium/GCA_001053265.1_ASM105326v1_orfs.fa./data/genomes/GCA_001055755.1_ASM105575v1_genomic.gff
+GCA_001055755.1_ASM105575v1
+Bacteroides
+4662 ORFS output into data/orfs/Bacteroides/GCA_001055755.1_ASM105575v1_orfs.fa./data/genomes/GCA_001056275.1_ASM105627v1_genomic.gff
+GCA_001056275.1_ASM105627v1
+Enterobacteriaceae
+4185 ORFS output into data/orfs/Enterobacteriaceae/GCA_001056275.1_ASM105627v1_orfs.fa./data/genomes/GCA_001061055.1_ASM106105v1_genomic.gff
+GCA_001061055.1_ASM106105v1
+Rahnella
+4398 ORFS output into data/orfs/Rahnella/GCA_001061055.1_ASM106105v1_orfs.fa./data/genomes/GCA_001062315.1_ASM106231v1_genomic.gff
+GCA_001062315.1_ASM106231v1
+Prevotella
+2069 ORFS output into data/orfs/Prevotella/GCA_001062315.1_ASM106231v1_orfs.fa./data/genomes/GCA_001062925.1_ASM106292v1_genomic.gff
+GCA_001062925.1_ASM106292v1
+Serratia
+4742 ORFS output into data/orfs/Serratia/GCA_001062925.1_ASM106292v1_orfs.fa./data/genomes/GCA_001067265.1_ASM106726v1_genomic.gff
+GCA_001067265.1_ASM106726v1
+Lactobacillus
+1490 ORFS output into data/orfs/Lactobacillus/GCA_001067265.1_ASM106726v1_orfs.fa./data/genomes/GCA_001069025.1_ASM106902v1_genomic.gff
+GCA_001069025.1_ASM106902v1
+Streptococcus
+1788 ORFS output into data/orfs/Streptococcus/GCA_001069025.1_ASM106902v1_orfs.fa./data/genomes/GCA_001072745.1_ASM107274v1_genomic.gff
+GCA_001072745.1_ASM107274v1
+Streptococcus
+1910 ORFS output into data/orfs/Streptococcus/GCA_001072745.1_ASM107274v1_orfs.fa./data/genomes/GCA_001073005.1_ASM107300v1_genomic.gff
+GCA_001073005.1_ASM107300v1
+Streptococcus
+1903 ORFS output into data/orfs/Streptococcus/GCA_001073005.1_ASM107300v1_orfs.fa./data/genomes/GCA_001074415.1_ASM107441v1_genomic.gff
+GCA_001074415.1_ASM107441v1
+Streptococcus
+2146 ORFS output into data/orfs/Streptococcus/GCA_001074415.1_ASM107441v1_orfs.fa./data/genomes/GCA_001075325.1_ASM107532v1_genomic.gff
+GCA_001075325.1_ASM107532v1
+Streptococcus
+5461 ORFS output into data/orfs/Streptococcus/GCA_001075325.1_ASM107532v1_orfs.fa./data/genomes/GCA_001076915.1_ASM107691v1_genomic.gff
+GCA_001076915.1_ASM107691v1
+Shigella
+5641 ORFS output into data/orfs/Shigella/GCA_001076915.1_ASM107691v1_orfs.fa./data/genomes/GCA_001076955.1_ASM107695v1_genomic.gff
+GCA_001076955.1_ASM107695v1
+Streptococcus
+2140 ORFS output into data/orfs/Streptococcus/GCA_001076955.1_ASM107695v1_orfs.fa./data/genomes/GCA_001078375.1_ASM107837v1_genomic.gff
+GCA_001078375.1_ASM107837v1
+Veillonella
+1902 ORFS output into data/orfs/Veillonella/GCA_001078375.1_ASM107837v1_orfs.fa./data/genomes/GCA_001182045.1_Dakarella_massiliensis_genomic.gff
+GCA_001182045.1_Dakarella_massiliensis
+Sutterellaceae
+2046 ORFS output into data/orfs/Sutterellaceae/GCA_001182045.1_Dakarella_massiliensis_orfs.fa./data/genomes/GCA_001244545.1_Stoquefichus_jeddahense_genomic.gff
+GCA_001244545.1_Stoquefichus_jeddahense
+Candidatus
+2932 ORFS output into data/orfs/Candidatus/GCA_001244545.1_Stoquefichus_jeddahense_orfs.fa./data/genomes/GCA_001261775.1_Anaeromassilibacillus_senegalense_genomic.gff
+GCA_001261775.1_Anaeromassilibacillus_senegalense
+Ruminococcaceae
+2358 ORFS output into data/orfs/Ruminococcaceae/GCA_001261775.1_Anaeromassilibacillus_senegalense_orfs.fa./data/genomes/GCA_001269445.1_ASM126944v1_genomic.gff
+GCA_001269445.1_ASM126944v1
+Erwinia
+6064 ORFS output into data/orfs/Erwinia/GCA_001269445.1_ASM126944v1_orfs.fa./data/genomes/GCA_001280875.1_ASM128087v1_genomic.gff
+GCA_001280875.1_ASM128087v1
+Clostridium
+3116 ORFS output into data/orfs/Clostridium/GCA_001280875.1_ASM128087v1_orfs.fa./data/genomes/GCA_001282575.1_ASM128257v1_genomic.gff
+GCA_001282575.1_ASM128257v1
+Mycobacterium
+4548 ORFS output into data/orfs/Mycobacterium/GCA_001282575.1_ASM128257v1_orfs.fa./data/genomes/GCA_001293965.1_ASM129396v1_genomic.gff
+GCA_001293965.1_ASM129396v1
+Chlamydia
+961 ORFS output into data/orfs/Chlamydia/GCA_001293965.1_ASM129396v1_orfs.fa

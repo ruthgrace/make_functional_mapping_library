@@ -1,7 +1,7 @@
 for f in ./data/genomes/*.gff
 do
 	filename=${f:15}
-	filename=${filename%_feature_table.txt}
+	filename=${filename%_genomic.gff}
 	line=$(head -n 1 "./data/genomes/"$filename"_genomic.fna")
 	genus=`echo $line | cut -d " " -f 2`
 	if  [[ $genus == \[* ]] ;
