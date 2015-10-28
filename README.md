@@ -1,6 +1,6 @@
 # Collect Reference Genomes
 
-This is Ruth's case-specific workflow for finding genomes to create a functional mapping library for a metagenomic study. A list of relevant genomes was created by amalgamating the HMP gut reference genomes with relevant genomes from the NCBI complete and draft bacterial genomes.
+This is Ruth's case-specific workflow for finding genomes to create a functional mapping library for a metagenomic study. The steps here include that you have R and Perl installed.
 
 ## Find out which OTUs are >= 0.2% abundance
 
@@ -32,6 +32,11 @@ Run local BLAST with the OTU seed sequences as a query and the HMP reference as 
 
 ```bash
 nohup blastn -db hmp_genomes/all_seqs.fa -query data/OTU_seed_seqs_less_common_removed.fa -out output/blast.out -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen' -evalue 1e-3 -num_alignments 10 -num_threads 4 > blast_nohup.out 2>&1&
+```
+
+Add this header to blast.out.
+```
+qseqid  sseqid  pident  length  mismatch  gapopen qstart  qend  sstart  send  evalue  bitscore  qlen  slen
 ```
 
 Output list of sequences that don’t have a > 97% identity match using get_otus_not_in_hmp.r.
@@ -69,7 +74,7 @@ The end result is that all the genomes I need for my functional mapping library 
 
 ## Extract coordinates of coding sequences from genomes
 
-ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a bash script that runs the first steps of the iterated Glimmer script on all genomes for which we were only able to colleted a .gff file and not a feature_table.txt. The coordinates are output in the data/glimmer_output folder
+ORFS for .gff files need to be extracted using Glimmer. `extract_orfs.sh` is a bash script that runs the first steps of the iterated Glimmer script on all genomes for which we were only able to colleted a .gff file and not a feature_table.txt. The coordinates are output in the data/glimmer_output folder. Glimmer can be downloaded from the [John's Hopkins Center for Computational Biology website](https://ccb.jhu.edu/software/glimmer/).
 
 ```bash
 nohup ./extract_orf_coordinates_from_gff.sh > extract_orfs_nohup.out 2>&1&
@@ -98,13 +103,13 @@ As a sanity check, you may want to throw your ORFs into a protein translator, an
 This script concatenates all the fasta files in each genus folder in `data/orfs/` into one fasta file per genus.
 
 ```bash
-
+nohup ./concatenate_orfs_by_genus.sh > concatenate_orfs_nohup.out 2>&1&
 ```
 
-The orfs for each genus are clustered at 100% identity using UCLUST:
+The orfs for each genus are then sorted for deviation from median length, and clustered at 100% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide).
 
 ```bash
-nohup usearch -cluster_fast ../reference_lists/wget/all.ffn -id 0.95 -centroids centroids.ffn -uc clusters_id95.uc &
+nohup ./cluster_orfs_by_genus.sh > cluster_orfs_by_genus_nohup.out 2>&1&
 ```
 
 ## Clustering at 95% between genus

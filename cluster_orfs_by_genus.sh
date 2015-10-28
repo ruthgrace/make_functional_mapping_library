@@ -3,7 +3,6 @@ do
 	genus=${directory:12}
 	echo $directory
 	echo $genus
-	usearch -cluster_fast $directory"/"$genus"_all_orfs.fa" -id 1 -centroids $directory"/"$genus"_centroids.ffn" -uc $directory"/"$genus"_clusters_id100.uc"
+	Rscript sort_seq_by_median_length.r $directory"/"$genus"_all_orfs.fa" $directory"/"$genus"_all_orfs_sorted_by_median_length.fa"
+	cd-hit -i $directory"/"$genus"_all_orfs_sorted_by_median_length.fa" -o $directory"/"$genus"_cd_hit.txt" -c 1.00 -n 5
 done
-
-#usearch -cluster_fast data/orfs/Gamma/Gamma_all_orfs.fa -id 1 -centroids ./Gamma_centroids.ffn -uc ./Gamma_clusters_id100.uc
