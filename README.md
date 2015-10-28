@@ -84,6 +84,8 @@ Note that after I ran this, a couple of output files were empty, presumably beca
 
 ## Output coding sequences into fasta files
 
+Note that after this step, genus names in brackets (such as "[Clostridium]") will be grouped with species name without brackets. Brackets denote uncertainty about the genus designation (the isolate has been named by sequence identity rather than biochemical evidence).
+
 This bash script uses the `get_orf_sequences_from_feature_table.pl` Perl script to write the ORF sequences denoted by the feature tables into a fasta file, into a folder named the same as the genus in data/orfs/.
 
 ```bash
@@ -113,3 +115,15 @@ nohup ./cluster_orfs_by_genus.sh > cluster_orfs_by_genus_nohup.out 2>&1&
 ```
 
 ## Clustering at 95% between genus
+
+Concatenate all the 100% clustered per genus sequences into a single file:
+
+```
+cat data/orfs/*/*_cd_hit.txt > data/orfs/all_genus_orfs_clustered_at_100.fa
+```
+
+Cluster by 95% identity across genus using CD-HIT
+
+```
+nonhup cd-hit-v4.6.1-2012-08-27/cd-hit -i data/orfs/all_genus_orfs_clustered_at_100.fa -o data/orfs/all_orfs_clustered_at_95.txt -c 0.95 -n 5 > cluster_all_orfs_at_95_nohup.out 2>&1&
+```
