@@ -6,625 +6,95 @@
 Error in read.table(input_file, sep = "\t", header = FALSE) : 
   no lines available in input
 Execution halted
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
+
+Fatal Error:
+Failed to open the database file
+Program halted !!
+
+================================================================
+Program: CD-HIT, V4.6 (+OpenMP), Oct 28 2015, 12:15:59
+Command: cd-hit-v4.6.1-2012-08-27/cd-hit -i
+         ./data/orfs/_all_orfs_sorted_by_median_length.fa -o
+         ./data/orfs/_cd_hit.txt -c 1.00 -n 5
+
+Started: Wed Oct 28 12:22:19 2015
+================================================================
+                            Output                              
+----------------------------------------------------------------
 ./data/orfs/Acidaminococcus
 Acidaminococcus
 [1] "./data/orfs/Acidaminococcus/Acidaminococcus_all_orfs.fa"                        
 [2] "./data/orfs/Acidaminococcus/Acidaminococcus_all_orfs_sorted_by_median_length.fa"
 [1] "sorting sequences by closeness to median length in file ./data/orfs/Acidaminococcus/Acidaminococcus_all_orfs.fa output in file ./data/orfs/Acidaminococcus/Acidaminococcus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
+================================================================
+Program: CD-HIT, V4.6 (+OpenMP), Oct 28 2015, 12:15:59
+Command: cd-hit-v4.6.1-2012-08-27/cd-hit -i
+         ./data/orfs/Acidaminococcus/Acidaminococcus_all_orfs_sorted_by_median_length.fa
+         -o
+         ./data/orfs/Acidaminococcus/Acidaminococcus_cd_hit.txt
+         -c 1.00 -n 5
+
+Started: Wed Oct 28 12:22:23 2015
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 18013
+longest and shortest : 26340 and 61
+Total letters: 16792709
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 19M
+Buffer          : 1 X 16M = 16M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 101M
+
+Table limit with the given memory limit:
+Max number of representatives: 535311
+Max number of word counting entries: 87345422
+
+comparing sequences from          0  to      18013
+....................    10000  finished       6351  clusters
+........
+    18013  finished      11280  clusters
+
+Apprixmated maximum memory consumption: 143M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 174.65
 ./data/orfs/Acinetobacter
 Acinetobacter
 [1] "./data/orfs/Acinetobacter/Acinetobacter_all_orfs.fa"                        
 [2] "./data/orfs/Acinetobacter/Acinetobacter_all_orfs_sorted_by_median_length.fa"
 [1] "sorting sequences by closeness to median length in file ./data/orfs/Acinetobacter/Acinetobacter_all_orfs.fa output in file ./data/orfs/Acinetobacter/Acinetobacter_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Adlercreutzia
-Adlercreutzia
-[1] "./data/orfs/Adlercreutzia/Adlercreutzia_all_orfs.fa"                        
-[2] "./data/orfs/Adlercreutzia/Adlercreutzia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Adlercreutzia/Adlercreutzia_all_orfs.fa output in file ./data/orfs/Adlercreutzia/Adlercreutzia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Aeromicrobium
-Aeromicrobium
-[1] "./data/orfs/Aeromicrobium/Aeromicrobium_all_orfs.fa"                        
-[2] "./data/orfs/Aeromicrobium/Aeromicrobium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Aeromicrobium/Aeromicrobium_all_orfs.fa output in file ./data/orfs/Aeromicrobium/Aeromicrobium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Akkermansia
-Akkermansia
-[1] "./data/orfs/Akkermansia/Akkermansia_all_orfs.fa"                        
-[2] "./data/orfs/Akkermansia/Akkermansia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Akkermansia/Akkermansia_all_orfs.fa output in file ./data/orfs/Akkermansia/Akkermansia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Alistipes
-Alistipes
-[1] "./data/orfs/Alistipes/Alistipes_all_orfs.fa"                        
-[2] "./data/orfs/Alistipes/Alistipes_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Alistipes/Alistipes_all_orfs.fa output in file ./data/orfs/Alistipes/Alistipes_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Anaerostipes
-Anaerostipes
-[1] "./data/orfs/Anaerostipes/Anaerostipes_all_orfs.fa"                        
-[2] "./data/orfs/Anaerostipes/Anaerostipes_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Anaerostipes/Anaerostipes_all_orfs.fa output in file ./data/orfs/Anaerostipes/Anaerostipes_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/bacterium
-bacterium
-[1] "./data/orfs/bacterium/bacterium_all_orfs.fa"                        
-[2] "./data/orfs/bacterium/bacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/bacterium/bacterium_all_orfs.fa output in file ./data/orfs/bacterium/bacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Bacteroides
-Bacteroides
-[1] "./data/orfs/Bacteroides/Bacteroides_all_orfs.fa"                        
-[2] "./data/orfs/Bacteroides/Bacteroides_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Bacteroides/Bacteroides_all_orfs.fa output in file ./data/orfs/Bacteroides/Bacteroides_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Barnesiella
-Barnesiella
-[1] "./data/orfs/Barnesiella/Barnesiella_all_orfs.fa"                        
-[2] "./data/orfs/Barnesiella/Barnesiella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Barnesiella/Barnesiella_all_orfs.fa output in file ./data/orfs/Barnesiella/Barnesiella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Bifidobacterium
-Bifidobacterium
-[1] "./data/orfs/Bifidobacterium/Bifidobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Bifidobacterium/Bifidobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Bifidobacterium/Bifidobacterium_all_orfs.fa output in file ./data/orfs/Bifidobacterium/Bifidobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Blautia
-Blautia
-[1] "./data/orfs/Blautia/Blautia_all_orfs.fa"                        
-[2] "./data/orfs/Blautia/Blautia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Blautia/Blautia_all_orfs.fa output in file ./data/orfs/Blautia/Blautia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Burkholderia
-Burkholderia
-[1] "./data/orfs/Burkholderia/Burkholderia_all_orfs.fa"                        
-[2] "./data/orfs/Burkholderia/Burkholderia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Burkholderia/Burkholderia_all_orfs.fa output in file ./data/orfs/Burkholderia/Burkholderia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Burkholderiales
-Burkholderiales
-[1] "./data/orfs/Burkholderiales/Burkholderiales_all_orfs.fa"                        
-[2] "./data/orfs/Burkholderiales/Burkholderiales_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Burkholderiales/Burkholderiales_all_orfs.fa output in file ./data/orfs/Burkholderiales/Burkholderiales_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Butyrivibrio
-Butyrivibrio
-[1] "./data/orfs/Butyrivibrio/Butyrivibrio_all_orfs.fa"                        
-[2] "./data/orfs/Butyrivibrio/Butyrivibrio_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Butyrivibrio/Butyrivibrio_all_orfs.fa output in file ./data/orfs/Butyrivibrio/Butyrivibrio_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Candidatus
-Candidatus
-[1] "./data/orfs/Candidatus/Candidatus_all_orfs.fa"                        
-[2] "./data/orfs/Candidatus/Candidatus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Candidatus/Candidatus_all_orfs.fa output in file ./data/orfs/Candidatus/Candidatus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Carnobacterium
-Carnobacterium
-[1] "./data/orfs/Carnobacterium/Carnobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Carnobacterium/Carnobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Carnobacterium/Carnobacterium_all_orfs.fa output in file ./data/orfs/Carnobacterium/Carnobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Catenibacterium
-Catenibacterium
-[1] "./data/orfs/Catenibacterium/Catenibacterium_all_orfs.fa"                        
-[2] "./data/orfs/Catenibacterium/Catenibacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Catenibacterium/Catenibacterium_all_orfs.fa output in file ./data/orfs/Catenibacterium/Catenibacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Chlamydia
-Chlamydia
-[1] "./data/orfs/Chlamydia/Chlamydia_all_orfs.fa"                        
-[2] "./data/orfs/Chlamydia/Chlamydia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Chlamydia/Chlamydia_all_orfs.fa output in file ./data/orfs/Chlamydia/Chlamydia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Clostridiales
-Clostridiales
-[1] "./data/orfs/Clostridiales/Clostridiales_all_orfs.fa"                        
-[2] "./data/orfs/Clostridiales/Clostridiales_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Clostridiales/Clostridiales_all_orfs.fa output in file ./data/orfs/Clostridiales/Clostridiales_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Clostridium
-Clostridium
-[1] "./data/orfs/Clostridium/Clostridium_all_orfs.fa"                        
-[2] "./data/orfs/Clostridium/Clostridium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Clostridium/Clostridium_all_orfs.fa output in file ./data/orfs/Clostridium/Clostridium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Collinsella
-Collinsella
-[1] "./data/orfs/Collinsella/Collinsella_all_orfs.fa"                        
-[2] "./data/orfs/Collinsella/Collinsella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Collinsella/Collinsella_all_orfs.fa output in file ./data/orfs/Collinsella/Collinsella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Coprobacillus
-Coprobacillus
-[1] "./data/orfs/Coprobacillus/Coprobacillus_all_orfs.fa"                        
-[2] "./data/orfs/Coprobacillus/Coprobacillus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Coprobacillus/Coprobacillus_all_orfs.fa output in file ./data/orfs/Coprobacillus/Coprobacillus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Coprococcus
-Coprococcus
-[1] "./data/orfs/Coprococcus/Coprococcus_all_orfs.fa"                        
-[2] "./data/orfs/Coprococcus/Coprococcus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Coprococcus/Coprococcus_all_orfs.fa output in file ./data/orfs/Coprococcus/Coprococcus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Coriobacterium
-Coriobacterium
-[1] "./data/orfs/Coriobacterium/Coriobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Coriobacterium/Coriobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Coriobacterium/Coriobacterium_all_orfs.fa output in file ./data/orfs/Coriobacterium/Coriobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Dehalobacter
-Dehalobacter
-[1] "./data/orfs/Dehalobacter/Dehalobacter_all_orfs.fa"                        
-[2] "./data/orfs/Dehalobacter/Dehalobacter_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Dehalobacter/Dehalobacter_all_orfs.fa output in file ./data/orfs/Dehalobacter/Dehalobacter_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Delftia
-Delftia
-[1] "./data/orfs/Delftia/Delftia_all_orfs.fa"                        
-[2] "./data/orfs/Delftia/Delftia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Delftia/Delftia_all_orfs.fa output in file ./data/orfs/Delftia/Delftia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Desulfovibrio
-Desulfovibrio
-[1] "./data/orfs/Desulfovibrio/Desulfovibrio_all_orfs.fa"                        
-[2] "./data/orfs/Desulfovibrio/Desulfovibrio_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Desulfovibrio/Desulfovibrio_all_orfs.fa output in file ./data/orfs/Desulfovibrio/Desulfovibrio_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Devosia
-Devosia
-[1] "./data/orfs/Devosia/Devosia_all_orfs.fa"                        
-[2] "./data/orfs/Devosia/Devosia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Devosia/Devosia_all_orfs.fa output in file ./data/orfs/Devosia/Devosia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Dialister
-Dialister
-[1] "./data/orfs/Dialister/Dialister_all_orfs.fa"                        
-[2] "./data/orfs/Dialister/Dialister_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Dialister/Dialister_all_orfs.fa output in file ./data/orfs/Dialister/Dialister_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Dorea
-Dorea
-[1] "./data/orfs/Dorea/Dorea_all_orfs.fa"                        
-[2] "./data/orfs/Dorea/Dorea_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Dorea/Dorea_all_orfs.fa output in file ./data/orfs/Dorea/Dorea_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Dysgonomonas
-Dysgonomonas
-[1] "./data/orfs/Dysgonomonas/Dysgonomonas_all_orfs.fa"                        
-[2] "./data/orfs/Dysgonomonas/Dysgonomonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Dysgonomonas/Dysgonomonas_all_orfs.fa output in file ./data/orfs/Dysgonomonas/Dysgonomonas_all_orfs_sorted_by_median_length.fa"
-Error in read.table(input_file, sep = "\t", header = FALSE) : 
-  no lines available in input
-Execution halted
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Eggerthella
-Eggerthella
-[1] "./data/orfs/Eggerthella/Eggerthella_all_orfs.fa"                        
-[2] "./data/orfs/Eggerthella/Eggerthella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Eggerthella/Eggerthella_all_orfs.fa output in file ./data/orfs/Eggerthella/Eggerthella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Endosymbiont
-Endosymbiont
-[1] "./data/orfs/Endosymbiont/Endosymbiont_all_orfs.fa"                        
-[2] "./data/orfs/Endosymbiont/Endosymbiont_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Endosymbiont/Endosymbiont_all_orfs.fa output in file ./data/orfs/Endosymbiont/Endosymbiont_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Enterobacteriaceae
-Enterobacteriaceae
-[1] "./data/orfs/Enterobacteriaceae/Enterobacteriaceae_all_orfs.fa"                        
-[2] "./data/orfs/Enterobacteriaceae/Enterobacteriaceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Enterobacteriaceae/Enterobacteriaceae_all_orfs.fa output in file ./data/orfs/Enterobacteriaceae/Enterobacteriaceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Enterococcus
-Enterococcus
-[1] "./data/orfs/Enterococcus/Enterococcus_all_orfs.fa"                        
-[2] "./data/orfs/Enterococcus/Enterococcus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Enterococcus/Enterococcus_all_orfs.fa output in file ./data/orfs/Enterococcus/Enterococcus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Enterorhabdus
-Enterorhabdus
-[1] "./data/orfs/Enterorhabdus/Enterorhabdus_all_orfs.fa"                        
-[2] "./data/orfs/Enterorhabdus/Enterorhabdus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Enterorhabdus/Enterorhabdus_all_orfs.fa output in file ./data/orfs/Enterorhabdus/Enterorhabdus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Erwinia
-Erwinia
-[1] "./data/orfs/Erwinia/Erwinia_all_orfs.fa"                        
-[2] "./data/orfs/Erwinia/Erwinia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Erwinia/Erwinia_all_orfs.fa output in file ./data/orfs/Erwinia/Erwinia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Erysipelothrix
-Erysipelothrix
-[1] "./data/orfs/Erysipelothrix/Erysipelothrix_all_orfs.fa"                        
-[2] "./data/orfs/Erysipelothrix/Erysipelothrix_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Erysipelothrix/Erysipelothrix_all_orfs.fa output in file ./data/orfs/Erysipelothrix/Erysipelothrix_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Erysipelotrichaceae
-Erysipelotrichaceae
-[1] "./data/orfs/Erysipelotrichaceae/Erysipelotrichaceae_all_orfs.fa"                        
-[2] "./data/orfs/Erysipelotrichaceae/Erysipelotrichaceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Erysipelotrichaceae/Erysipelotrichaceae_all_orfs.fa output in file ./data/orfs/Erysipelotrichaceae/Erysipelotrichaceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Escherichia
-Escherichia
-[1] "./data/orfs/Escherichia/Escherichia_all_orfs.fa"                        
-[2] "./data/orfs/Escherichia/Escherichia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Escherichia/Escherichia_all_orfs.fa output in file ./data/orfs/Escherichia/Escherichia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Ethanoligenens
-Ethanoligenens
-[1] "./data/orfs/Ethanoligenens/Ethanoligenens_all_orfs.fa"                        
-[2] "./data/orfs/Ethanoligenens/Ethanoligenens_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Ethanoligenens/Ethanoligenens_all_orfs.fa output in file ./data/orfs/Ethanoligenens/Ethanoligenens_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Eubacteriaceae
-Eubacteriaceae
-[1] "./data/orfs/Eubacteriaceae/Eubacteriaceae_all_orfs.fa"                        
-[2] "./data/orfs/Eubacteriaceae/Eubacteriaceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Eubacteriaceae/Eubacteriaceae_all_orfs.fa output in file ./data/orfs/Eubacteriaceae/Eubacteriaceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Eubacterium
-Eubacterium
-[1] "./data/orfs/Eubacterium/Eubacterium_all_orfs.fa"                        
-[2] "./data/orfs/Eubacterium/Eubacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Eubacterium/Eubacterium_all_orfs.fa output in file ./data/orfs/Eubacterium/Eubacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Ewingella
-Ewingella
-[1] "./data/orfs/Ewingella/Ewingella_all_orfs.fa"                        
-[2] "./data/orfs/Ewingella/Ewingella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Ewingella/Ewingella_all_orfs.fa output in file ./data/orfs/Ewingella/Ewingella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Exiguobacterium
-Exiguobacterium
-[1] "./data/orfs/Exiguobacterium/Exiguobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Exiguobacterium/Exiguobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Exiguobacterium/Exiguobacterium_all_orfs.fa output in file ./data/orfs/Exiguobacterium/Exiguobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Faecalibacterium
-Faecalibacterium
-[1] "./data/orfs/Faecalibacterium/Faecalibacterium_all_orfs.fa"                        
-[2] "./data/orfs/Faecalibacterium/Faecalibacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Faecalibacterium/Faecalibacterium_all_orfs.fa output in file ./data/orfs/Faecalibacterium/Faecalibacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Firmicutes
-Firmicutes
-[1] "./data/orfs/Firmicutes/Firmicutes_all_orfs.fa"                        
-[2] "./data/orfs/Firmicutes/Firmicutes_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Firmicutes/Firmicutes_all_orfs.fa output in file ./data/orfs/Firmicutes/Firmicutes_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Fusobacterium
-Fusobacterium
-[1] "./data/orfs/Fusobacterium/Fusobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Fusobacterium/Fusobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Fusobacterium/Fusobacterium_all_orfs.fa output in file ./data/orfs/Fusobacterium/Fusobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Gamma
-Gamma
-[1] "./data/orfs/Gamma/Gamma_all_orfs.fa"                        
-[2] "./data/orfs/Gamma/Gamma_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Gamma/Gamma_all_orfs.fa output in file ./data/orfs/Gamma/Gamma_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Hafnia
-Hafnia
-[1] "./data/orfs/Hafnia/Hafnia_all_orfs.fa"                        
-[2] "./data/orfs/Hafnia/Hafnia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Hafnia/Hafnia_all_orfs.fa output in file ./data/orfs/Hafnia/Hafnia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Herbaspirillum
-Herbaspirillum
-[1] "./data/orfs/Herbaspirillum/Herbaspirillum_all_orfs.fa"                        
-[2] "./data/orfs/Herbaspirillum/Herbaspirillum_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Herbaspirillum/Herbaspirillum_all_orfs.fa output in file ./data/orfs/Herbaspirillum/Herbaspirillum_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Intestinibacter
-Intestinibacter
-[1] "./data/orfs/Intestinibacter/Intestinibacter_all_orfs.fa"                        
-[2] "./data/orfs/Intestinibacter/Intestinibacter_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Intestinibacter/Intestinibacter_all_orfs.fa output in file ./data/orfs/Intestinibacter/Intestinibacter_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Intestinimonas
-Intestinimonas
-[1] "./data/orfs/Intestinimonas/Intestinimonas_all_orfs.fa"                        
-[2] "./data/orfs/Intestinimonas/Intestinimonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Intestinimonas/Intestinimonas_all_orfs.fa output in file ./data/orfs/Intestinimonas/Intestinimonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Lachnobacterium
-Lachnobacterium
-[1] "./data/orfs/Lachnobacterium/Lachnobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Lachnobacterium/Lachnobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Lachnobacterium/Lachnobacterium_all_orfs.fa output in file ./data/orfs/Lachnobacterium/Lachnobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Lachnoclostridium
-Lachnoclostridium
-[1] "./data/orfs/Lachnoclostridium/Lachnoclostridium_all_orfs.fa"                        
-[2] "./data/orfs/Lachnoclostridium/Lachnoclostridium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Lachnoclostridium/Lachnoclostridium_all_orfs.fa output in file ./data/orfs/Lachnoclostridium/Lachnoclostridium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Lachnospiraceae
-Lachnospiraceae
-[1] "./data/orfs/Lachnospiraceae/Lachnospiraceae_all_orfs.fa"                        
-[2] "./data/orfs/Lachnospiraceae/Lachnospiraceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Lachnospiraceae/Lachnospiraceae_all_orfs.fa output in file ./data/orfs/Lachnospiraceae/Lachnospiraceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Lactobacillus
-Lactobacillus
-[1] "./data/orfs/Lactobacillus/Lactobacillus_all_orfs.fa"                        
-[2] "./data/orfs/Lactobacillus/Lactobacillus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Lactobacillus/Lactobacillus_all_orfs.fa output in file ./data/orfs/Lactobacillus/Lactobacillus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Lonsdalea
-Lonsdalea
-[1] "./data/orfs/Lonsdalea/Lonsdalea_all_orfs.fa"                        
-[2] "./data/orfs/Lonsdalea/Lonsdalea_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Lonsdalea/Lonsdalea_all_orfs.fa output in file ./data/orfs/Lonsdalea/Lonsdalea_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Lysinibacillus
-Lysinibacillus
-[1] "./data/orfs/Lysinibacillus/Lysinibacillus_all_orfs.fa"                        
-[2] "./data/orfs/Lysinibacillus/Lysinibacillus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Lysinibacillus/Lysinibacillus_all_orfs.fa output in file ./data/orfs/Lysinibacillus/Lysinibacillus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Megamonas
-Megamonas
-[1] "./data/orfs/Megamonas/Megamonas_all_orfs.fa"                        
-[2] "./data/orfs/Megamonas/Megamonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Megamonas/Megamonas_all_orfs.fa output in file ./data/orfs/Megamonas/Megamonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Megasphaera
-Megasphaera
-[1] "./data/orfs/Megasphaera/Megasphaera_all_orfs.fa"                        
-[2] "./data/orfs/Megasphaera/Megasphaera_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Megasphaera/Megasphaera_all_orfs.fa output in file ./data/orfs/Megasphaera/Megasphaera_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Mycobacterium
-Mycobacterium
-[1] "./data/orfs/Mycobacterium/Mycobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Mycobacterium/Mycobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Mycobacterium/Mycobacterium_all_orfs.fa output in file ./data/orfs/Mycobacterium/Mycobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Neisseria
-Neisseria
-[1] "./data/orfs/Neisseria/Neisseria_all_orfs.fa"                        
-[2] "./data/orfs/Neisseria/Neisseria_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Neisseria/Neisseria_all_orfs.fa output in file ./data/orfs/Neisseria/Neisseria_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Odoribacter
-Odoribacter
-[1] "./data/orfs/Odoribacter/Odoribacter_all_orfs.fa"                        
-[2] "./data/orfs/Odoribacter/Odoribacter_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Odoribacter/Odoribacter_all_orfs.fa output in file ./data/orfs/Odoribacter/Odoribacter_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Olsenella
-Olsenella
-[1] "./data/orfs/Olsenella/Olsenella_all_orfs.fa"                        
-[2] "./data/orfs/Olsenella/Olsenella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Olsenella/Olsenella_all_orfs.fa output in file ./data/orfs/Olsenella/Olsenella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Oscillibacter
-Oscillibacter
-[1] "./data/orfs/Oscillibacter/Oscillibacter_all_orfs.fa"                        
-[2] "./data/orfs/Oscillibacter/Oscillibacter_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Oscillibacter/Oscillibacter_all_orfs.fa output in file ./data/orfs/Oscillibacter/Oscillibacter_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Oscillospiraceae
-Oscillospiraceae
-[1] "./data/orfs/Oscillospiraceae/Oscillospiraceae_all_orfs.fa"                        
-[2] "./data/orfs/Oscillospiraceae/Oscillospiraceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Oscillospiraceae/Oscillospiraceae_all_orfs.fa output in file ./data/orfs/Oscillospiraceae/Oscillospiraceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Pantoea
-Pantoea
-[1] "./data/orfs/Pantoea/Pantoea_all_orfs.fa"                        
-[2] "./data/orfs/Pantoea/Pantoea_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Pantoea/Pantoea_all_orfs.fa output in file ./data/orfs/Pantoea/Pantoea_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Parabacteroides
-Parabacteroides
-[1] "./data/orfs/Parabacteroides/Parabacteroides_all_orfs.fa"                        
-[2] "./data/orfs/Parabacteroides/Parabacteroides_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Parabacteroides/Parabacteroides_all_orfs.fa output in file ./data/orfs/Parabacteroides/Parabacteroides_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Paraprevotella
-Paraprevotella
-[1] "./data/orfs/Paraprevotella/Paraprevotella_all_orfs.fa"                        
-[2] "./data/orfs/Paraprevotella/Paraprevotella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Paraprevotella/Paraprevotella_all_orfs.fa output in file ./data/orfs/Paraprevotella/Paraprevotella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Parasutterella
-Parasutterella
-[1] "./data/orfs/Parasutterella/Parasutterella_all_orfs.fa"                        
-[2] "./data/orfs/Parasutterella/Parasutterella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Parasutterella/Parasutterella_all_orfs.fa output in file ./data/orfs/Parasutterella/Parasutterella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Parcubacteria
-Parcubacteria
-[1] "./data/orfs/Parcubacteria/Parcubacteria_all_orfs.fa"                        
-[2] "./data/orfs/Parcubacteria/Parcubacteria_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Parcubacteria/Parcubacteria_all_orfs.fa output in file ./data/orfs/Parcubacteria/Parcubacteria_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Pectobacterium
-Pectobacterium
-[1] "./data/orfs/Pectobacterium/Pectobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Pectobacterium/Pectobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Pectobacterium/Pectobacterium_all_orfs.fa output in file ./data/orfs/Pectobacterium/Pectobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Peptoclostridium
-Peptoclostridium
-[1] "./data/orfs/Peptoclostridium/Peptoclostridium_all_orfs.fa"                        
-[2] "./data/orfs/Peptoclostridium/Peptoclostridium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Peptoclostridium/Peptoclostridium_all_orfs.fa output in file ./data/orfs/Peptoclostridium/Peptoclostridium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Peptostreptococcaceae
-Peptostreptococcaceae
-[1] "./data/orfs/Peptostreptococcaceae/Peptostreptococcaceae_all_orfs.fa"                        
-[2] "./data/orfs/Peptostreptococcaceae/Peptostreptococcaceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Peptostreptococcaceae/Peptostreptococcaceae_all_orfs.fa output in file ./data/orfs/Peptostreptococcaceae/Peptostreptococcaceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Phascolarctobacterium
-Phascolarctobacterium
-[1] "./data/orfs/Phascolarctobacterium/Phascolarctobacterium_all_orfs.fa"                        
-[2] "./data/orfs/Phascolarctobacterium/Phascolarctobacterium_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Phascolarctobacterium/Phascolarctobacterium_all_orfs.fa output in file ./data/orfs/Phascolarctobacterium/Phascolarctobacterium_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Plesiomonas
-Plesiomonas
-[1] "./data/orfs/Plesiomonas/Plesiomonas_all_orfs.fa"                        
-[2] "./data/orfs/Plesiomonas/Plesiomonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Plesiomonas/Plesiomonas_all_orfs.fa output in file ./data/orfs/Plesiomonas/Plesiomonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Porphyromonas
-Porphyromonas
-[1] "./data/orfs/Porphyromonas/Porphyromonas_all_orfs.fa"                        
-[2] "./data/orfs/Porphyromonas/Porphyromonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Porphyromonas/Porphyromonas_all_orfs.fa output in file ./data/orfs/Porphyromonas/Porphyromonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Prevotella
-Prevotella
-[1] "./data/orfs/Prevotella/Prevotella_all_orfs.fa"                        
-[2] "./data/orfs/Prevotella/Prevotella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Prevotella/Prevotella_all_orfs.fa output in file ./data/orfs/Prevotella/Prevotella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Proteobacteria
-Proteobacteria
-[1] "./data/orfs/Proteobacteria/Proteobacteria_all_orfs.fa"                        
-[2] "./data/orfs/Proteobacteria/Proteobacteria_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Proteobacteria/Proteobacteria_all_orfs.fa output in file ./data/orfs/Proteobacteria/Proteobacteria_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Proteus
-Proteus
-[1] "./data/orfs/Proteus/Proteus_all_orfs.fa"                        
-[2] "./data/orfs/Proteus/Proteus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Proteus/Proteus_all_orfs.fa output in file ./data/orfs/Proteus/Proteus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Pseudomonas
-Pseudomonas
-[1] "./data/orfs/Pseudomonas/Pseudomonas_all_orfs.fa"                        
-[2] "./data/orfs/Pseudomonas/Pseudomonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Pseudomonas/Pseudomonas_all_orfs.fa output in file ./data/orfs/Pseudomonas/Pseudomonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Rahnella
-Rahnella
-[1] "./data/orfs/Rahnella/Rahnella_all_orfs.fa"                        
-[2] "./data/orfs/Rahnella/Rahnella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Rahnella/Rahnella_all_orfs.fa output in file ./data/orfs/Rahnella/Rahnella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Ralstonia
-Ralstonia
-[1] "./data/orfs/Ralstonia/Ralstonia_all_orfs.fa"                        
-[2] "./data/orfs/Ralstonia/Ralstonia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Ralstonia/Ralstonia_all_orfs.fa output in file ./data/orfs/Ralstonia/Ralstonia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Roseburia
-Roseburia
-[1] "./data/orfs/Roseburia/Roseburia_all_orfs.fa"                        
-[2] "./data/orfs/Roseburia/Roseburia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Roseburia/Roseburia_all_orfs.fa output in file ./data/orfs/Roseburia/Roseburia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Rouxiella
-Rouxiella
-[1] "./data/orfs/Rouxiella/Rouxiella_all_orfs.fa"                        
-[2] "./data/orfs/Rouxiella/Rouxiella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Rouxiella/Rouxiella_all_orfs.fa output in file ./data/orfs/Rouxiella/Rouxiella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Ruminococcaceae
-Ruminococcaceae
-[1] "./data/orfs/Ruminococcaceae/Ruminococcaceae_all_orfs.fa"                        
-[2] "./data/orfs/Ruminococcaceae/Ruminococcaceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Ruminococcaceae/Ruminococcaceae_all_orfs.fa output in file ./data/orfs/Ruminococcaceae/Ruminococcaceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Ruminococcus
-Ruminococcus
-[1] "./data/orfs/Ruminococcus/Ruminococcus_all_orfs.fa"                        
-[2] "./data/orfs/Ruminococcus/Ruminococcus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Ruminococcus/Ruminococcus_all_orfs.fa output in file ./data/orfs/Ruminococcus/Ruminococcus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Selenomonas
-Selenomonas
-[1] "./data/orfs/Selenomonas/Selenomonas_all_orfs.fa"                        
-[2] "./data/orfs/Selenomonas/Selenomonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Selenomonas/Selenomonas_all_orfs.fa output in file ./data/orfs/Selenomonas/Selenomonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Serratia
-Serratia
-[1] "./data/orfs/Serratia/Serratia_all_orfs.fa"                        
-[2] "./data/orfs/Serratia/Serratia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Serratia/Serratia_all_orfs.fa output in file ./data/orfs/Serratia/Serratia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Shigella
-Shigella
-[1] "./data/orfs/Shigella/Shigella_all_orfs.fa"                        
-[2] "./data/orfs/Shigella/Shigella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Shigella/Shigella_all_orfs.fa output in file ./data/orfs/Shigella/Shigella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Slackia
-Slackia
-[1] "./data/orfs/Slackia/Slackia_all_orfs.fa"                        
-[2] "./data/orfs/Slackia/Slackia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Slackia/Slackia_all_orfs.fa output in file ./data/orfs/Slackia/Slackia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Sphingomonas
-Sphingomonas
-[1] "./data/orfs/Sphingomonas/Sphingomonas_all_orfs.fa"                        
-[2] "./data/orfs/Sphingomonas/Sphingomonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Sphingomonas/Sphingomonas_all_orfs.fa output in file ./data/orfs/Sphingomonas/Sphingomonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Spiroplasma
-Spiroplasma
-[1] "./data/orfs/Spiroplasma/Spiroplasma_all_orfs.fa"                        
-[2] "./data/orfs/Spiroplasma/Spiroplasma_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Spiroplasma/Spiroplasma_all_orfs.fa output in file ./data/orfs/Spiroplasma/Spiroplasma_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Streptococcus
-Streptococcus
-[1] "./data/orfs/Streptococcus/Streptococcus_all_orfs.fa"                        
-[2] "./data/orfs/Streptococcus/Streptococcus_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Streptococcus/Streptococcus_all_orfs.fa output in file ./data/orfs/Streptococcus/Streptococcus_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Subdoligranulum
-Subdoligranulum
-[1] "./data/orfs/Subdoligranulum/Subdoligranulum_all_orfs.fa"                        
-[2] "./data/orfs/Subdoligranulum/Subdoligranulum_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Subdoligranulum/Subdoligranulum_all_orfs.fa output in file ./data/orfs/Subdoligranulum/Subdoligranulum_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Sutterellaceae
-Sutterellaceae
-[1] "./data/orfs/Sutterellaceae/Sutterellaceae_all_orfs.fa"                        
-[2] "./data/orfs/Sutterellaceae/Sutterellaceae_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Sutterellaceae/Sutterellaceae_all_orfs.fa output in file ./data/orfs/Sutterellaceae/Sutterellaceae_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Synthetic
-Synthetic
-[1] "./data/orfs/Synthetic/Synthetic_all_orfs.fa"                        
-[2] "./data/orfs/Synthetic/Synthetic_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Synthetic/Synthetic_all_orfs.fa output in file ./data/orfs/Synthetic/Synthetic_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Terrisporobacter
-Terrisporobacter
-[1] "./data/orfs/Terrisporobacter/Terrisporobacter_all_orfs.fa"                        
-[2] "./data/orfs/Terrisporobacter/Terrisporobacter_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Terrisporobacter/Terrisporobacter_all_orfs.fa output in file ./data/orfs/Terrisporobacter/Terrisporobacter_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Veillonella
-Veillonella
-[1] "./data/orfs/Veillonella/Veillonella_all_orfs.fa"                        
-[2] "./data/orfs/Veillonella/Veillonella_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Veillonella/Veillonella_all_orfs.fa output in file ./data/orfs/Veillonella/Veillonella_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Xanthomonas
-Xanthomonas
-[1] "./data/orfs/Xanthomonas/Xanthomonas_all_orfs.fa"                        
-[2] "./data/orfs/Xanthomonas/Xanthomonas_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Xanthomonas/Xanthomonas_all_orfs.fa output in file ./data/orfs/Xanthomonas/Xanthomonas_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
-./data/orfs/Yersinia
-Yersinia
-[1] "./data/orfs/Yersinia/Yersinia_all_orfs.fa"                        
-[2] "./data/orfs/Yersinia/Yersinia_all_orfs_sorted_by_median_length.fa"
-[1] "sorting sequences by closeness to median length in file ./data/orfs/Yersinia/Yersinia_all_orfs.fa output in file ./data/orfs/Yersinia/Yersinia_all_orfs_sorted_by_median_length.fa"
-./cluster_orfs_by_genus.sh: line 7: cd-hit: command not found
+================================================================
+Program: CD-HIT, V4.6 (+OpenMP), Oct 28 2015, 12:15:59
+Command: cd-hit-v4.6.1-2012-08-27/cd-hit -i
+         ./data/orfs/Acinetobacter/Acinetobacter_all_orfs_sorted_by_median_length.fa
+         -o ./data/orfs/Acinetobacter/Acinetobacter_cd_hit.txt
+         -c 1.00 -n 5
+
+Started: Wed Oct 28 12:25:26 2015
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 33746
+longest and shortest : 490289 and 12
+Total letters: 34101782
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 38M
+Buffer          : 1 X 115M = 115M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 219M
+
+Table limit with the given memory limit:
+Max number of representatives: 319715
+Max number of word counting entries: 72506998
+
+comparing sequences from          0  to      33746
