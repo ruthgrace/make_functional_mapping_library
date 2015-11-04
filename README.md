@@ -105,12 +105,7 @@ As a sanity check, you may want to throw a few of your ORFs into a protein trans
 To account for incorrectly annotated ORFs, run the following program to collect all ORF lengths into the tab separated file `data/orfLengths.txt`.
 
 ```bash
-nohup ./count_orf_lengths.sh > data/orfLengths_temp.txt 2>&1&
-```
-
-For some reason sometimes there are lines with just the filename, remove these
-```bash
-nohup grep "\d$" data/orfLengths_temp.txt > data/orfLengths.txt &
+nohup ./count_orf_lengths.sh > data/orfLengths.txt 2>&1&
 ```
 
 Plot the lengths on a histogram by running the `histogram_orf_lengths.r` script. The histogram is output into `data/orf_length_histogram.pdf`.
@@ -122,7 +117,7 @@ nohup Rscript histogram_orf_lengths.r "data/orfLengths.txt" "data/orf_length_his
 Look at the histogram and decide what coding sequence length cutoff is reasonable for differentiating real ORFs and too long artifacts. Change this line in the `histogram_orf_lengths.r` script to your cutoff of choice, run the script again, and the sequences that are too long will be output into `data/too_long_orfs.txt`. The default cutoff is 5000:
 
 ```R
-cutoff <- 5000
+cutoff <- 3000
 ```
 
 Remove or correct the outlier sequences before clustering.
