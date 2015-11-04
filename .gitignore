@@ -8,3 +8,6 @@ glimmer_output
 orfs
 cd-hit-openmp
 *nohup.out
+data/orfLengths.txt
+data/orfLenghts_temp.txt
+data/too_long_orfs.txt

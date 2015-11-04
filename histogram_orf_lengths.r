@@ -2,48 +2,26 @@
 args <- commandArgs(trailingOnly = TRUE)
 
 input_file = args[1]
-output_sequence_length_file = args[2]
-output_histogram_file = args[3]
-output_sequence_length_over_cutoff_file = args[4]
+output_histogram_file = args[2]
+output_sequence_length_over_cutoff_file = args[3]
 
 print(paste("reading file",input_file,"(this may take a while if your file is large)"))
-data <- readLines(input_file)
-print("creating sequence length table")
-df <- data.frame(matrix(ncol=3,nrow=(length(data)/2)))
-row <- 1
-filename <- ""
-seqname <- ""
-colnames(df) <- c("filename","sequence_name","sequence_length")
-print("adding sequences to sequence length table")
-for (line in data) {
-  if (grepl("\\.fa$",line)) {
-    filename <- line
-  }
-  else if (grepl("^>",line)) {
-    seqname <- line
-  }
-  # skip if line is empty
-  else if (line != ""){
-    df[row,] <- c(filename, seqname, line)
-    row <- row + 1
-  }
-}
+data <- read.table(input_file,sep="\t",header=FALSE)
+colnames(data) <- c("filename","seqname","seqlength")
 
 print("sorting sequences by length")
 # sort ORFs by ascending sequence length
-df <- df[order(df$sequence_length),]
+data <- data[order(data$seqlength),]
 
-print(paste("writing sequence length table to file",output_sequence_length_file))
-write.table(df,file=output_sequence_length_file,sep="\t",quote=FALSE)
-
-cutoff <- 5000
+cutoff <- 3000
 
 print(paste("printing sequence length histogram to PDF",output_histogram_file))
 pdf(output_histogram_file)
-
-histogram(df$sequence_length,main="frequency of lengths of predicted orfs")
-
+hist(log2(data$seqlength),main="frequency of lengths of predicted orfs",xlab="log base 2 of sequence length")
 dev.off()
 
 print(paste("writing sequence length table for sequences over cutoff to file",output_sequence_length_over_cutoff_file))
-write.table(df[which(df$sequence_length>cutoff),],file=output_sequence_length_over_cutoff_file,sep="\t")
+outliers <- data[which(data$seqlength>cutoff),]
+write.table(outliers,file=output_sequence_length_over_cutoff_file,sep="\t",quote=FALSE,row.names=FALSE)
+
+print(paste(nrow(outliers),"predicted coding sequences were dropped out of",nrow(data)," for a drop rate of",(nrow(outliers)/nrow(data)),"percent."))
