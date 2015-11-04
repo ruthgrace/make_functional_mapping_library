@@ -6,5 +6,5 @@ output/draft-genomes-Alignment-HitTable.csv
 glimmer
 glimmer_output
 orfs
-cd-hit-v4.6.1-2012-08-27
+cd-hit-openmp
 *nohup.out

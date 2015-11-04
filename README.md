@@ -98,7 +98,28 @@ This bash script uses the `get_orf_sequences_from_glimmer_output.pl` Perl script
 nohup ./output_glimmer_coord_orf_sequences.sh > glimmer_coord_orfs_output_nohup.out 2>&1&
 ```
 
-As a sanity check, you may want to throw your ORFs into a protein translator, and blast them to make sure they're real protein sequences.
+As a sanity check, you may want to throw a few of your ORFs into a protein translator, and blast them to make sure they're real protein sequences (no frame shift mutations or anything).
+
+## Checking ORF length
+
+To account for incorrectly annotated ORFs, run the following program to collect all ORF lengths into the tab separated file `data/orfLengths.txt`.
+
+```bash
+nohup ./count_orf_lengths.sh > count_orf_lengths_nohup.out 2>&1&
+```
+
+Plot the lengths on a histogram by running the `histogram_orf_lengths.r` script inside R. Note that this script assumes that the output from the previous command is in `count_orf_lengths_nohup.out`.
+
+```R
+>>> source("histogram_orf_lengths.r")
+```
+
+Look at the histogram and decide what coding sequence length cutoff is reasonable for differentiating real ORFs and too long artifacts. Change this line in the `histogram_orf_lengths.r` script to your cutoff of choice, run the script again, and the sequences that are too long will be output in the console. The default cutoff is 5000.
+
+```
+```
+
+Remove or correct the outlier sequences before clustering.
 
 ## Clustering at 100% by genus
 
@@ -108,10 +129,10 @@ This script concatenates all the fasta files in each genus folder in `data/orfs/
 nohup ./concatenate_orfs_by_genus.sh > concatenate_orfs_nohup.out 2>&1&
 ```
 
-The orfs for each genus are then sorted for deviation from median length, and clustered at 100% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide).
+The orfs for each genus are then sorted for deviation from median length, and clustered at 100% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide). I followed the instructions for a multithreaded install.
 
 ```bash
-nohup ./cluster_orfs_by_genus.sh > cluster_orfs_by_genus_nohup.out 2>&1&
+nohup ./cluster_orfs_by_genus_multithreaded.sh > cluster_orfs_by_genus_nohup.out 2>&1&
 ```
 
 ## Clustering at 95% between genus
@@ -125,5 +146,16 @@ cat data/orfs/*/*_cd_hit.txt > data/orfs/all_genus_orfs_clustered_at_100.fa
 Cluster by 95% identity across genus using CD-HIT
 
 ```
-nonhup cd-hit-v4.6.1-2012-08-27/cd-hit -i data/orfs/all_genus_orfs_clustered_at_100.fa -o data/orfs/all_orfs_clustered_at_95.txt -c 0.95 -n 5 > cluster_all_orfs_at_95_nohup.out 2>&1&
+nonhup cd-hit/cd-hit -i data/orfs/all_genus_orfs_clustered_at_100.fa -o data/orfs/all_orfs_clustered_at_95.txt -c 0.95 -n 5 -M 48000 > cluster_all_orfs_at_95_nohup.out 2>&1&
 ```
+
+## Assigning function
+
+This was for 413986 sequences
+
+nohup blastp -db db_fastas.complex.faa -query leftover_refseqs_blast_seed.faa -out leftover_refseqs_blast_seed.faa.out -outfmt 6 -evalue 1e-3 -num_alignments 10 -num_threads 4 > leftover_nohup.out 2>&1&
+
+Jul 5, 2013 9:00am 25% done
+Jul 7, 2013 7:30pm 61%
+July 8, 2103 10:34am 70%
+Jul 9, 2013 10:41am 85%
