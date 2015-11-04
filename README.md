@@ -108,10 +108,10 @@ To account for incorrectly annotated ORFs, run the following program to collect 
 nohup ./count_orf_lengths.sh > count_orf_lengths_nohup.out 2>&1&
 ```
 
-Plot the lengths on a histogram by running the `histogram_orf_lengths.r` script inside R. Note that this script assumes that the output from the previous command is in `count_orf_lengths_nohup.out`. The histogram is output into `data/orf_length_histogram.pdf`.
+Plot the lengths on a histogram by running the `histogram_orf_lengths.r` script. Note that this script assumes that the output from the previous command is in `count_orf_lengths_nohup.out`. The histogram is output into `data/orf_length_histogram.pdf`.
 
 ```R
->>> source("histogram_orf_lengths.r")
+nohup Rscript histgram_orf_lengths.r "count_orf_lengths_nohup.out" "data/nucleotides_per_count_per_sequence_per_file.txt" "data/orf_length_histogram.pdf" "data/too_long_orfs.txt" > histogram_orf_lengths_nohup.out 2>&1&
 ```
 
 Look at the histogram and decide what coding sequence length cutoff is reasonable for differentiating real ORFs and too long artifacts. Change this line in the `histogram_orf_lengths.r` script to your cutoff of choice, run the script again, and the sequences that are too long will be output into `data/too_long_orfs.txt`. The default cutoff is 5000:
