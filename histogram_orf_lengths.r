@@ -1,38 +1,41 @@
+print("reading file (this may take a while if your file is large)")
 data <- readLines("count_orf_lengths_nohup.out")
+print("creating sequence length table")
+df <- data.frame(matrix(ncol=3,nrow=(length(data)/2)))
+row <- 1
+filename <- ""
+seqname <- ""
+colnames(df) <- c("filename","sequence_name","sequence_length")
+print("adding sequences to sequence length table")
+for (line in data) {
+  if (grepl("\\.fa$",line)) {
+    filename <- line
+  }
+  else if (grepl("^>",line)) {
+    seqname <- line
+  }
+  # skip if line is empty
+  else if (line != ""){
+    df[row,] <- c(filename, seqname, line)
+    row <- row + 1
+  }
+}
 
+print("sorting sequences by length")
+# sort ORFs by ascending sequence length
+df <- df[order(df$sequence_length),]
 
-# skip if line is empty
+print("writing sequence length table to file")
+write.table(df,file="data/nucleotides_per_count_per_sequence_per_file.txt",sep="\t",quote=FALSE)
 
+cutoff <- 5000
 
+print("printing sequence length histogram to PDF")
+pdf("data/orf_length_histogram.pdf")
 
+histogram(df$sequence_length,main="frequency of lengths of predicted orfs")
 
+dev.off()
 
-
-# FIX THIS SCRIPT TO EXTRACT WHICH HMP REFERENCE GENOMES MATCH TO OTUS
-
-# i guess what you really want is binomial species name
-
-# add this header to blast.out:
-# qseqid  sseqid  pident  length  mismatch  gapopen qstart  qend  sstart  send  evalue  bitscore  qlen  slen
-
-data <- read.table("output/blast.out",header=TRUE)
-otus.in.hmp <- data[which(data$pident >= 97),]
-otus.not.in.hmp <- unique(data$qseqid[which(!as.character(data$qseqid)%in%as.character(otus.in.hmp$qseqid))])
-
-fasta <- read.table("data/OTU_seed_seqs_less_common_removed.fa",sep="\t",header=FALSE)
-fasta <- fasta[,1]
-ids <- fasta[c(TRUE,FALSE)]
-ids <- gsub(">","",as.character(ids))
-seqs <- fasta[c(FALSE, TRUE)]
-
-ids.not.in.hmp <- ids[which(as.character(ids)%in%as.character(otus.not.in.hmp))]
-seqs.not.in.hmp <- seqs[which(as.character(ids)%in%as.character(otus.not.in.hmp))]
-
-fasta.not.in.hmp <- data.frame(matrix(ncol=1,nrow=(length(ids.not.in.hmp) + length(seqs.not.in.hmp))))
-
-ids.not.in.hmp <- gsub("^",">",ids.not.in.hmp)
-
-fasta.not.in.hmp[c(TRUE,FALSE),1] <- as.character(ids.not.in.hmp)
-fasta.not.in.hmp[c(FALSE,TRUE),1] <- as.character(seqs.not.in.hmp)
-
-write.table(fasta.not.in.hmp,file="data/OTUs_not_in_HMP.fa",row.names=FALSE,col.names=FALSE,quote=FALSE)
+print("writing sequence length table for sequences over cutoff to file")
+write.table(df[which(df$sequence_length>cutoff),],file="data/too_long_orfs.txt",sep="\t")
