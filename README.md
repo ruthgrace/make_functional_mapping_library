@@ -102,6 +102,12 @@ As a sanity check, you may want to throw a few of your ORFs into a protein trans
 
 ## Checking ORF length
 
+This script concatenates all the fasta files in each genus folder in `data/orfs/` into one fasta file per genus.
+
+```bash
+nohup ./concatenate_orfs_by_genus.sh > concatenate_orfs_nohup.out 2>&1&
+```
+
 To account for incorrectly annotated ORFs, run the following program to collect all ORF lengths into the tab separated file `data/orfLengths.txt`.
 
 ```bash
@@ -114,21 +120,19 @@ Plot the lengths on a histogram by running the `histogram_orf_lengths.r` script.
 nohup Rscript histogram_orf_lengths.r "data/orfLengths.txt" "data/orf_length_histogram.pdf" "data/too_long_orfs.txt" > histogram_orf_lengths_nohup.out 2>&1&
 ```
 
-Look at the histogram and decide what coding sequence length cutoff is reasonable for differentiating real ORFs and too long artifacts. Change this line in the `histogram_orf_lengths.r` script to your cutoff of choice, run the script again, and the sequences that are too long will be output into `data/too_long_orfs.txt`. The default cutoff is 5000:
+Look at the histogram and decide what coding sequence length cutoff is reasonable for differentiating real ORFs and too long artifacts. Change this line in the `histogram_orf_lengths.r` script to your cutoff of choice, run the script again, and the sequences that are too long will be output into `data/too_long_orfs.txt`. The default cutoff is 3000:
 
 ```R
 cutoff <- 3000
 ```
 
-Remove or correct the outlier sequences before clustering.
-
-## Clustering at 100% by genus
-
-This script concatenates all the fasta files in each genus folder in `data/orfs/` into one fasta file per genus.
+Remove or correct the outlier sequences before clustering. To automatically remove all sequences that don't make the cutoff, run:
 
 ```bash
-nohup ./concatenate_orfs_by_genus.sh > concatenate_orfs_nohup.out 2>&1&
+nohup ./remove_orfs.pl "data/too_long_orfs.txt" > remove_orfs_nohup.out 2>&1&
 ```
+
+## Clustering at 100% by genus
 
 The orfs for each genus are then sorted for deviation from median length, and clustered at 100% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide). I followed the instructions for a multithreaded install.
 
@@ -141,13 +145,25 @@ nohup ./cluster_orfs_by_genus_multithreaded.sh > cluster_orfs_by_genus_nohup.out
 Concatenate all the 100% clustered per genus sequences into a single file:
 
 ```
-cat data/orfs/*/*_cd_hit.txt > data/orfs/all_genus_orfs_clustered_at_100.fa
+nohup cat data/orfs/*/*multithreaded_cd_hit.txt > data/orfs/all_genus_orfs_clustered_at_100.fa 2>&1&
+```
+
+Prepend unique number to beginning of sequence identifier, to make all identifiers unique:
+
+```Perl
+nohup uniqueify_seq_id.pl "data/orfs/all_genus_orfs_clustered_at_100.fa" "data/orfs/all_genus_orfs_clustered_at_100_unique.fa" > uniquify_seq_id_nohup.out 2>&1&
+```
+
+Sort by ascending distance from median sequence length:
+
+```Perl
+sort_seq_by_median_length_make_id_unique.pl "data/orfs/all_genus_orfs_clustered_at_100.fa" "data/orfs/all_genus_orfs_clustered_at_100_sorted_unique.fa"
 ```
 
 Cluster by 95% identity across genus using CD-HIT
 
 ```
-nonhup cd-hit/cd-hit -i data/orfs/all_genus_orfs_clustered_at_100.fa -o data/orfs/all_orfs_clustered_at_95.txt -c 0.95 -n 5 -M 48000 > cluster_all_orfs_at_95_nohup.out 2>&1&
+nohup cd-hit-openmp/cd-hit -i data/orfs/all_genus_orfs_clustered_at_100_sorted_unique.fa -o data/orfs/all_orfs_clustered_at_95.txt -c 0.95 -n 5 -T 10 -M 48000 > cluster_all_orfs_at_95_nohup.out 2>&1&
 ```
 
 ## Assigning function
