@@ -151,13 +151,13 @@ nohup cat data/orfs/*/*multithreaded_cd_hit.txt > data/orfs/all_genus_orfs_clust
 Prepend unique number to beginning of sequence identifier, to make all identifiers unique:
 
 ```Perl
-nohup uniqueify_seq_id.pl "data/orfs/all_genus_orfs_clustered_at_100.fa" "data/orfs/all_genus_orfs_clustered_at_100_unique.fa" > uniquify_seq_id_nohup.out 2>&1&
+nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_100.fa data/orfs/all_genus_orfs_clustered_at_100_unique.fa > uniqueify_seq_id_nohup.out 2>&1&
 ```
 
 Sort by ascending distance from median sequence length:
 
 ```Perl
-sort_seq_by_median_length_make_id_unique.pl "data/orfs/all_genus_orfs_clustered_at_100.fa" "data/orfs/all_genus_orfs_clustered_at_100_sorted_unique.fa"
+nohup ./sort_seq_by_median_length.pl "data/orfs/all_genus_orfs_clustered_at_100_unique.fa" "data/orfs/all_genus_orfs_clustered_at_100_unique_sorted.fa" > sort_seq_by_median_length_nohup.out 2>&1&
 ```
 
 Cluster by 95% identity across genus using CD-HIT

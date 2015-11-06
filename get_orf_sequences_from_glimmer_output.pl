@@ -3,14 +3,6 @@ use strict;
 use Cwd;
 use warnings;
 
-#output ORF DNA sequences from a gtf file and a contig fasta file
-
-
-################
-# Need gtf file (download separately), and the "contigs" file (downloaded in package)
-#
-################
-
 my $contig_file = $ARGV[0] if $ARGV[0];
 my $coord_file = $ARGV[1] if $ARGV[1];
 my $outfile = $ARGV[2] if $ARGV[2];

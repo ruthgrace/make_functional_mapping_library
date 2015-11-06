@@ -3,14 +3,6 @@ use strict;
 use Cwd;
 use warnings;
 
-#output ORF DNA sequences from a gtf file and a contig fasta file
-
-
-################
-# Need gtf file (download separately), and the "contigs" file (downloaded in package)
-#
-################
-
 my $unwanted_orf_file = $ARGV[0] if $ARGV[0];
 print "This function takes in one argument: the path of a table with columns filepath, sequence name, and sequence length, for each sequence that should be removed\n" if !$ARGV[0];
 exit if !$ARGV[0];
