@@ -31,4 +31,5 @@ unless(open OUT, '>', $outfile) {
     }
 	}	
 close IN;
+close OUT;
 print "Uniqueified $counter sequences\n"
