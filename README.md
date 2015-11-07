@@ -157,7 +157,7 @@ nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_100.fa data/or
 Sort by ascending distance from median sequence length:
 
 ```Perl
-nohup ./sort_seq_by_median_length.pl "data/orfs/all_genus_orfs_clustered_at_100_unique.fa" "data/orfs/all_genus_orfs_clustered_at_100_unique_sorted.fa" > sort_seq_by_median_length_nohup.out 2>&1&
+nohup ./sort_seq_by_median_length.pl data/orfs/all_genus_orfs_clustered_at_100_unique.fa data/orfs/all_genus_orfs_clustered_at_100_unique_sorted.fa > sort_seq_by_median_length_nohup.out 2>&1&
 ```
 
 Cluster by 95% identity across genus using CD-HIT
