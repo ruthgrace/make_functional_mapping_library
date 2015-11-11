@@ -159,15 +159,15 @@ Add the genus name to each sequence ID just in case:
 nohup ./add_genus_name_to_seq_ids.sh > add_genus_name_to_seq_ids_nohup.out 2>&1&
 ```
 
-Concatenate all the 100% clustered per genus sequences into a single file:
+Concatenate all the 90% clustered per genus sequences into a single file:
 
+```bash
+nohup cat data/orfs/*/*_90_cd_hit_genus_id.txt > data/orfs/all_genus_orfs_clustered_at_90.fa 2>&1&
 ```
-nohup cat data/orfs/*/*multithreaded_cd_hit.txt > data/orfs/all_genus_orfs_clustered_at_100.fa 2>&1&
-```
 
-Prepend unique number to beginning of sequence identifier, to make all identifiers unique:
+Prepend unique number to beginning of sequence identifier, to make all identifiers unique, just in case:
 
-```Perl
+```bash
 nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_100.fa data/orfs/all_genus_orfs_clustered_at_100_unique.fa > uniqueify_seq_id_nohup.out 2>&1&
 ```
 
