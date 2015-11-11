@@ -123,7 +123,8 @@ nohup Rscript histogram_orf_lengths.r "data/orfLengths.txt" "data/orf_length_his
 Look at the histogram and decide what coding sequence length cutoff is reasonable for differentiating real ORFs and too long artifacts. Change this line in the `histogram_orf_lengths.r` script to your cutoff of choice, run the script again, and the sequences that are too long will be output into `data/too_long_orfs.txt`. The default cutoff is 3000:
 
 ```R
-cutoff <- 3000
+low_cutoff <- 60
+high_cutoff <- 3000
 ```
 
 Remove or correct the outlier sequences before clustering. To automatically remove all sequences that don't make the cutoff, run:
@@ -132,15 +133,25 @@ Remove or correct the outlier sequences before clustering. To automatically remo
 nohup ./remove_orfs.pl "data/too_long_orfs.txt" > remove_orfs_nohup.out 2>&1&
 ```
 
-## Clustering at 100% by genus
+## Clustering at 99% by genus for mapping
 
-The orfs for each genus are then sorted for deviation from median length, and clustered at 100% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide). I followed the instructions for a multithreaded install.
+The orfs for each genus are then sorted for deviation from median length, and clustered at 99% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide). I followed the instructions for a multithreaded install.
 
 ```bash
-nohup ./cluster_orfs_by_genus_multithreaded.sh > cluster_orfs_by_genus_nohup.out 2>&1&
+nohup ./cluster_orfs_by_genus_99_multithreaded.sh > cluster_orfs_by_genus_99_nohup.out 2>&1&
 ```
 
-## Clustering at 95% between genus
+The resulting sequences are what we will be mapping to.
+
+## Clustering at 90% by genus in preparation for function assignment
+
+The orfs for each genus are then sorted for deviation from median length, and clustered at 90% identity using CD-HIT. 
+
+```bash
+nohup ./cluster_orfs_by_genus_stage_2_90_multithreaded.sh > cluster_orfs_by_genus_stage_2_90_nohup.out 2>&1&
+```
+
+## Assigning function
 
 Concatenate all the 100% clustered per genus sequences into a single file:
 
@@ -154,20 +165,6 @@ Prepend unique number to beginning of sequence identifier, to make all identifie
 nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_100.fa data/orfs/all_genus_orfs_clustered_at_100_unique.fa > uniqueify_seq_id_nohup.out 2>&1&
 ```
 
-Sort by ascending distance from median sequence length:
-
-```Perl
-nohup ./sort_seq_by_median_length.pl data/orfs/all_genus_orfs_clustered_at_100_unique.fa data/orfs/all_genus_orfs_clustered_at_100_unique_sorted.fa > sort_seq_by_median_length_nohup.out 2>&1&
-```
-
-Cluster by 95% identity across genus using CD-HIT
-
-```
-nohup cd-hit-openmp/cd-hit -i data/orfs/all_genus_orfs_clustered_at_100_sorted_unique.fa -o data/orfs/all_orfs_clustered_at_95.txt -c 0.95 -n 5 -T 10 -M 48000 > cluster_all_orfs_at_95_nohup.out 2>&1&
-```
-
-## Assigning function
-
 This was for 413986 sequences
 
 nohup blastp -db db_fastas.complex.faa -query leftover_refseqs_blast_seed.faa -out leftover_refseqs_blast_seed.faa.out -outfmt 6 -evalue 1e-3 -num_alignments 10 -num_threads 4 > leftover_nohup.out 2>&1&
@@ -176,3 +173,7 @@ Jul 5, 2013 9:00am 25% done
 Jul 7, 2013 7:30pm 61%
 July 8, 2103 10:34am 70%
 Jul 9, 2013 10:41am 85%
+
+#Things I tried that didn't work
+
+Originally the plan was to cluster at 100% by genus, then 95% across all genus, and then blast to assign function. However, the 100% clustering resulted in about 4.5 million sequences in my case (after filtering out sequences longer than 3000). On our computer with 64GB of RAM and 16 threads, it would probably have taken a month to run the 95% clustering, which was too slow.
