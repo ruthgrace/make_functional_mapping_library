@@ -153,6 +153,12 @@ nohup ./cluster_orfs_by_genus_stage_2_90_multithreaded.sh > cluster_orfs_by_genu
 
 ## Assigning function
 
+Add the genus name to each sequence ID just in case:
+
+```bash
+nohup ./add_genus_name_to_seq_ids.sh > add_genus_name_to_seq_ids_nohup.out 2>&1&
+```
+
 Concatenate all the 100% clustered per genus sequences into a single file:
 
 ```
