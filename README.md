@@ -141,7 +141,19 @@ The orfs for each genus are then sorted for deviation from median length, and cl
 nohup ./cluster_orfs_by_genus_99_multithreaded.sh > cluster_orfs_by_genus_99_nohup.out 2>&1&
 ```
 
-The resulting sequences are what we will be mapping to.
+The resulting sequences are what we will be mapping to. Sequences were mapped using Bowtie2, which won't work properly if there are spaces in the sequence identifiers.
+
+To remove the space between the ">" and the unique number for each identifier, run:
+
+```
+sed -i ".backup" '/^>/ s/^> />/' all_genus_orfs_clustered_at_99_unique.fa 
+```
+
+To replace the rest of the spaces in the sequence identifiers with underscores, run:
+
+```
+sed -i ".backup" '/^>/ s/ /_/g' all_genus_orfs_clustered_at_99_unique.fa 
+```
 
 ## Assigning function
 
