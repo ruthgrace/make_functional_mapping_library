@@ -143,14 +143,6 @@ nohup ./cluster_orfs_by_genus_99_multithreaded.sh > cluster_orfs_by_genus_99_noh
 
 The resulting sequences are what we will be mapping to.
 
-## Clustering at 90% by genus in preparation for function assignment
-
-The orfs for each genus are then sorted for deviation from median length, and clustered at 90% identity using CD-HIT. 
-
-```bash
-nohup ./cluster_orfs_by_genus_stage_2_90_multithreaded.sh > cluster_orfs_by_genus_stage_2_90_nohup.out 2>&1&
-```
-
 ## Assigning function
 
 Add the genus name to each sequence ID just in case:
@@ -159,17 +151,37 @@ Add the genus name to each sequence ID just in case:
 nohup ./add_genus_name_to_seq_ids.sh > add_genus_name_to_seq_ids_nohup.out 2>&1&
 ```
 
-Concatenate all the 90% clustered per genus sequences into a single file:
+Concatenate all the 99% clustered per genus sequences into a single file:
 
 ```bash
-nohup cat data/orfs/*/*_90_cd_hit_genus_id.txt > data/orfs/all_genus_orfs_clustered_at_90.fa 2>&1&
+nohup cat data/orfs/*/*_multithreaded_99_cd_hit_genus_id.txt > data/orfs/all_genus_orfs_clustered_at_99.fa 2>&1&
 ```
 
 Prepend unique number to beginning of sequence identifier, to make all identifiers unique, just in case:
 
 ```bash
-nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_100.fa data/orfs/all_genus_orfs_clustered_at_100_unique.fa > uniqueify_seq_id_nohup.out 2>&1&
+nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_99.fa data/orfs/all_genus_orfs_clustered_at_99_unique.fa > uniqueify_seq_id_nohup.out 2>&1&
 ```
+
+The sequences then have to be translated into protein. I'm using Biopython. Installation instructions are [here](http://biopython.org/DIST/docs/install/Installation.html).
+
+```bash
+nohup python translate_sequences.py data/orfs/all_genus_orfs_clustered_at_99_unique.fa data/orfs/all_genus_orfs_clustered_at_99_unique_protein.fa
+```
+
+Check for spurious stop codons to filter out incorrectly annotated proteins (denoted asterisks and dashes). If you don't have any, this line won't output anything.
+
+```bash
+grep "^[^>].*[*-].*" data/orfs/all_genus_orfs_clustered_at_99_unique_protein.fa
+```
+
+If they exist you can remove them like so:
+
+```bash
+nohup ./remove_incorrect_proteins.pl data/orfs/all_genus_orfs_clustered_at_99_unique_protein.fa data/orfs/all_genus_orfs_clustered_at_99_unique_protein_validated.fa data/orfs/removed_protein_sequences.fa > remove_incorrect_proteins_nohup.out 2>&1&
+```
+
+Run BLAST with the SEED database. Our database is (get deets from Jean)
 
 This was for 413986 sequences
 
@@ -183,3 +195,5 @@ Jul 9, 2013 10:41am 85%
 #Things I tried that didn't work
 
 Originally the plan was to cluster at 100% by genus, then 95% across all genus, and then blast to assign function. However, the 100% clustering resulted in about 4.5 million sequences in my case (after filtering out sequences longer than 3000). On our computer with 64GB of RAM and 16 threads, it would probably have taken a month to run the 95% clustering, which was too slow.
+
+We then tried clustering by genus at 90%, which was too slow and only seemed to reduce the number of sequences ~87%. Similarly clustering by 95% per genus is slow - it took 15 minutes to do one genus (i have a couple hundred)
