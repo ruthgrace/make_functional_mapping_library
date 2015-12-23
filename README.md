@@ -133,24 +133,6 @@ Remove or correct the outlier sequences before clustering. To automatically remo
 nohup ./remove_orfs.pl "data/too_long_orfs.txt" > remove_orfs_nohup.out 2>&1&
 ```
 
-## Preparing for mapping
-
-The sequences that we will be mapping to are the sequences clustered at 100% identity within genus.
-
-TODO FIX REST OF SECTION
-
-Concatenate all the 99% clustered per genus sequences into a single file:
-
-```bash
-nohup cat data/orfs/*/*_multithreaded_99_cd_hit_genus_id.txt > data/orfs/all_genus_orfs_clustered_at_99.fa 2>&1&
-```
-
-Prepend unique number to beginning of sequence identifier, to make all identifiers unique, just in case:
-
-```bash
-nohup ./uniqueify_seq_id.pl data/orfs/all_genus_orfs_clustered_at_99.fa data/orfs/all_genus_orfs_clustered_at_99_unique.fa > uniqueify_seq_id_nohup.out 2>&1&
-```
-
 ## Clustering at 99% by genus for BLAST
 
 The orfs for each genus are then sorted for deviation from median length, and clustered at 99% identity using CD-HIT. CD-HIT is fast and doesn't use too much memory because it doesn't do real centroid picking (it picks the first sequences as seeds), and the best centroids for 100% identity clustering are the orfs with median length. You can download CD-HIT [here](https://code.google.com/p/cdhit/downloads/detail?name=cd-hit-v4.6.1-2012-08-27.tgz) and install instructions are [here](http://weizhong-lab.ucsd.edu/cd-hit/wiki/doku.php?id=cd-hit_user_guide). I followed the instructions for a multithreaded install.
@@ -222,8 +204,21 @@ Jul 7, 2013 7:30pm 61%
 July 8, 2103 10:34am 70%
 Jul 9, 2013 10:41am 85%
 
+## Mapping
+
+Mapping is done with the script in the mapping folder. Be sure to change the variables `WORKING_DIR`, `REFSEQS`, `OUTPUTFOLDER`, `IDX`, and `BIN` appropriately. Be careful to save your nohup file because this is your mapping index.
+
+```
+nohup mapping_scripts/mapping.sh > mapping_nohup.out 2>&1&
+```
+
+You may find it advantageous to split up the first and second half of the script, especially if the second half isn't working. I debugged the second half of the script for my specific use case in `mapping_count_aggregation_only.sh`.
+
 #Things I tried that didn't work
 
 Originally the plan was to cluster at 100% by genus, then 95% across all genus, and then blast to assign function. However, the 100% clustering resulted in about 4.5 million sequences in my case (after filtering out sequences longer than 3000). On our computer with 64GB of RAM and 16 threads, it would probably have taken a month to run the 95% clustering, which was too slow.
 
 We then tried clustering by genus at 90%, which was too slow and only seemed to reduce the number of sequences ~87%. Similarly clustering by 95% per genus is slow - it took 15 minutes to do one genus (i have a couple hundred)
+
+I also intended to map to the 100% within genus clustering and BLAST to the 99% within genus clustering, and amalgamate the mapped counts to the 99% clustering, but I actually just mapped to 99% within genus clustering and no amalgamation was neccessary. I am getting > 50% mapped reads on average. It's worth exploring what difference mapping to my 100% within genus clustering would have made.
+
