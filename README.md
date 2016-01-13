@@ -146,13 +146,13 @@ The resulting sequences are what we will be blasting to the SEED annotation data
 To remove the space between the ">" and the unique number for each identifier, run:
 
 ```
-sed -i ".backup" '/^>/ s/^> />/' all_genus_orfs_clustered_at_99_unique.fa 
+sed -i.backup '/^>/ s/^> />/' all_genus_orfs_clustered_at_99_unique.fa 
 ```
 
 To replace the rest of the spaces in the sequence identifiers with underscores, run:
 
 ```
-sed -i ".backup" '/^>/ s/ /_/g' all_genus_orfs_clustered_at_99_unique.fa 
+sed -i.backup '/^>/ s/ /_/g' all_genus_orfs_clustered_at_99_unique.fa 
 ```
 
 ## Assigning function
