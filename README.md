@@ -193,11 +193,17 @@ If they exist you can remove them like so:
 nohup ./remove_incorrect_proteins.pl data/orfs/all_genus_orfs_clustered_at_99_unique_protein.fa data/orfs/all_genus_orfs_clustered_at_99_unique_protein_validated.fa data/orfs/removed_protein_sequences.fa > remove_incorrect_proteins_nohup.out 2>&1&
 ```
 
-Run BLAST with the SEED database. Our database is (get deets from Jean)
+Run BLAST with the SEED database.
+
+Database details from Jean: "SEED databse downloaded June 2013. I also added in missing fig.pegs from the old SEED database (2010) that we had used for the Microbiome paper (Macklaim et al. 2013)"
+
+The command and run time for an example BLAST:
 
 This was for 413986 sequences
 
+```
 nohup blastp -db db_fastas.complex.faa -query leftover_refseqs_blast_seed.faa -out leftover_refseqs_blast_seed.faa.out -outfmt 6 -evalue 1e-3 -num_alignments 10 -num_threads 4 > leftover_nohup.out 2>&1&
+```
 
 Jul 5, 2013 9:00am 25% done
 Jul 7, 2013 7:30pm 61%
