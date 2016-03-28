@@ -1,6 +1,6 @@
 # Collect Reference Genomes
 
-This is Ruth's case-specific workflow for finding genomes to create a functional mapping library for a metagenomic study. The steps here include that you have R and Perl installed.
+This is Ruth's case-specific workflow for finding genomes to create a functional mapping library for a metagenomic study. The steps here assume that you have R and Perl and Python installed.
 
 ## Find out which OTUs are >= 0.2% abundance
 
