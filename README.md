@@ -55,7 +55,7 @@ I put my BLAST output (Downloaded in CSV format) in data/complete-genomes-Alignm
 
 This is done in the script extract_genomes_not_in_hmp.py. It requires you to make a folder named genome inside the folder named data, and uses the blast outputs generated in the previous section.
 
-I only wanted genomes that were the best match for each OTU. If there was a match > 99% percent identity, then I wanted a second genome that had a percent identity just over 97%. The script extracts the gi numbers for such matches, and then crawls the NCBI nuccore website to find the taxon ID. The taxon ID is found in ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt and the corresponding FTP link is used to download the genome.
+I wanted all the genomes that matched 98% or higher for each OTU, or the best match if there were no matches better than 98%. The script extracts the gi numbers for such matches, and then crawls the NCBI nuccore website to find the taxon ID. The taxon ID is found in ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt and the corresponding FTP link is used to download the genome. For each species found by this method, the genomes for 10 random strains are downloaded (or all of the strains if there are less than 10). The idea with having 10 representatives is to increase the coverage of the library.
 
 The script can be run on the command line:
 
